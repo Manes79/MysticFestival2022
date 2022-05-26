@@ -9,5 +9,4 @@ public class MysticFestival2022Application {
     public static void main(String[] args) {
         SpringApplication.run(MysticFestival2022Application.class, args);
     }
-
 }
