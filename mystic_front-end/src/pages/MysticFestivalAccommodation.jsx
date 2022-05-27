@@ -34,19 +34,8 @@ export const MysticFestivalAccommodation = () => {
                     )
                 })
                 }
-                <br></br>
-                <div className="youtube-video-container">
-                    <iframe
-                        width="560"
-                        height="315"
-                        src="https://www.booking.com/index.pl.html?sid=90bb3ad8cb8bb86121b1e1446d1bb7c7;sb_price_type=total;label=gen173nr-
-                        1FCCsoggI46AdIM1gEaLYBiAEBmAEeuAEGyAEM2AEB6AEB-AEDiAIBqAIDuALF_diLBsACAdICJGJiNzcwMDJjLThiMDUtNDA1NC1iYTBmLTdmOTEwNTZkMWJiMdgCBeACAQ;
-                        aid=304142;srpvid=95ff72659f8c01c8;logged_out=1" title="Booking"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                    ></iframe>
-                </div>
+                <a href="https://www.booking.com/index.pl.html?label=gen173nr-1DCAEoggI46AdIM1gEaLYBiAEBmAEeuAEXyAEM2AED6AEBiAIBqAIDuAKc6cSUBsACAdICJDU5MTUzNjM0LThjMGYtNDg5My1iZTdjLTg5ZjJkMTZiNTJmNNgCBOACAQ&sid=ecdaea32a50a337b0f6f321c07a48d9e&keep_landing=1&sb_price_type=total&"
+                   title="Booking" target="blank" rel="noreferrer">Booking.com</a>
 
                 <br></br><br></br>
                 {accommodation2AppState.accommodation2.map((notices, index) => {
@@ -55,17 +44,8 @@ export const MysticFestivalAccommodation = () => {
                     )
                 })
                 }
-                <br></br>
-                <div className="youtube-video-container">
-                    <iframe
-                        width="560"
-                        height="315"
-                        src="https://search.hotellook.com/?marker=238042&language=pl" title="Hotellook"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                    ></iframe>
-                </div>
+                <a href="https://hotellook.pl/"
+                   title="Booking" target="blank" rel="noreferrer">Hotellook</a>
 
                 <br></br><br></br>
                 {accommodation3AppState.accommodation3.map((notices, index) => {
@@ -74,17 +54,8 @@ export const MysticFestivalAccommodation = () => {
                     )
                 })
                 }
-                <br></br>
-                <div className="youtube-video-container">
-                    <iframe
-                        width="560"
-                        height="315"
-                        src="https://www.trivago.pl/" title="Trivago"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                    ></iframe>
-                </div>
+                <a href="https://www.trivago.pl/?__wr=17&tc=102&themeId=280&sem_keyword=trivago.pl&sem_creativeid=510985779037&sem_matchtype=e&sem_network=g&sem_device=c&sem_placement=&sem_target=&sem_adposition=&sem_param1=&sem_param2=&sem_campaignid=321842415&sem_adgroupid=118922465494&sem_targetid=kwd-393873172515&sem_location=1011347&cipc=br&cip=4819000005&gclid=CjwKCAjw7cGUBhA9EiwArBAvop8yN5H15YrMfQEC8hXok55VFchhy6zF5ym86BZPunjM3iwuox79KxoC9ikQAvD_BwE"
+                   title="Booking" target="blank" rel="noreferrer">Trivago</a>
 
                 <br></br><br></br>
                 {accommodation4AppState.accommodation4.map((notices, index) => {
@@ -93,17 +64,8 @@ export const MysticFestivalAccommodation = () => {
                     )
                 })
                 }
-                <br></br>
-                <div className="youtube-video-container">
-                    <iframe
-                        width="560"
-                        height="315"
-                        src="https://www.sembo.pl/" title="Sembo"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                    ></iframe>
-                </div>
+                <a href="https://www.sembo.pl/"
+                   title="Booking" target="blank" rel="noreferrer">Sembo</a>
 
             </ul>
 
