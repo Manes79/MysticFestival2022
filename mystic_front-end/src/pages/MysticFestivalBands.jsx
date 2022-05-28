@@ -19,9 +19,11 @@ import Triptykon from "../bands/Triptykon";
 import Katatonia from "../bands/Katatonia";
 import Mgla from "../bands/Mgla";
 import Vader from "../bands/Vader";
+import AlienWeaponry from "../bands/AlienWeaponry";
 
 export const MysticFestivalBands = () => {
 
+    const [displayAlienWeaponry] = useState({AlienWeaponry: []});
     const [displayBleedFromWithin] = useState({BleedFromWithin: []});
     const [displayCarcass] = useState({Carcass: []});
     const [displayCelticFrost] = useState({CelticFrost: []});
@@ -139,11 +141,19 @@ export const MysticFestivalBands = () => {
 
             <div>
 
+                <div id="A" className="row">
+                    <div className="header_alphabet">
+                        <th>A</th>
+                    </div>
+                    <a href={"#A"}>Powrót</a>
+                    <AlienWeaponry displayAlienWeaponry={displayAlienWeaponry}></AlienWeaponry>
+                </div>
+
                 <div id="B" className="row">
                     <div className="header_alphabet">
                         <th>B</th>
                     </div>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <BleedFromWithin displayBleedFromWithin={displayBleedFromWithin}></BleedFromWithin>
                 </div>
 
@@ -151,11 +161,11 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>C</th>
                     </div>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <Carcass displayCarcass={displayCarcass}></Carcass>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <CelticFrost displayCelticFrost={displayCelticFrost}></CelticFrost>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <CodeOrange displayCodeOrange={displayCodeOrange}></CodeOrange>
                 </div>
 
@@ -163,7 +173,7 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>H</th>
                     </div>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <Hellhammer displayHellhammer={displayHellhammer}></Hellhammer>
                 </div>
 
@@ -171,7 +181,7 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>I</th>
                     </div>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <Igorrr displayIgorrr={displayIgorrr}></Igorrr>
                 </div>
 
@@ -179,7 +189,7 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>J</th>
                     </div>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <JudasPriest displayJudasPriest={displayJudasPriest}></JudasPriest>
                 </div>
 
@@ -187,9 +197,9 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>K</th>
                     </div>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <Katatonia displayKatatonia={displayKatatonia}></Katatonia>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <KillingJoke displayKillilngJoke={displayKillingJoke}></KillingJoke>
                 </div>
 
@@ -197,11 +207,11 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>M</th>
                     </div>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <Mastodon displayMastodon={displayMastodon}></Mastodon>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <MercyfulFate displayMercyfulFate={displayMercyfulFate}></MercyfulFate>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <Mgla displayMgla={displayMgla}></Mgla>
                 </div>
 
@@ -209,9 +219,9 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>O</th>
                     </div>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <Obituary displayObituary={displayObituary}></Obituary>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <Opeth displayOpeth={displayOpeth}></Opeth>
                 </div>
 
@@ -219,7 +229,7 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>S</th>
                     </div>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <Saxon displaySaxon={displaySaxon}></Saxon>
                 </div>
 
@@ -227,11 +237,11 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>T</th>
                     </div>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <TheMateria displayTheMateria={displayTheMateria}></TheMateria>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <TheRavenAge displayTheRavenAge={displayTheRavenAge}></TheRavenAge>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <Triptykon displayTriptykon={displayTriptykon}></Triptykon>
                 </div>
 
@@ -239,7 +249,7 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>U</th>
                     </div>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <Urne displayUrne={displayUrne}></Urne>
                 </div>
 
@@ -247,7 +257,7 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>V</th>
                     </div>
-                    <a href={"#B"}>Powrót</a>
+                    <a href={"#A"}>Powrót</a>
                     <Vader displayVader={displayVader}></Vader>
                 </div>
 
