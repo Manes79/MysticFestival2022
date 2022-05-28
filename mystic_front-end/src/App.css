@@ -24,12 +24,12 @@
     li a {
         display: inline-block;
         box-sizing: border-box;
-        font-size: calc(18px + 0.8vmin);
+        font-size: calc(18px + 0.9vmin);
         color: #cec9c9;
         opacity: 100%;
         text-align: center;
         padding: 14px 14px;
-        font-family: "Haettenschweiler", serif;
+        font-family: "Calibri Light", serif;
         text-decoration: none;
     }
 
@@ -38,16 +38,17 @@
     }
 
     .header_alphabet {
-        font-family: "Metal Macabre Font", serif;
-        font-size: 350%;
+        font-family: "Calibri Light", serif;
+        font-size: 300%;
         color: #cec9c9;
     }
 
     .header_alphabet_links {
         font-family: "Calibri Light", serif;
         display: inline-list-item;
-        font-size: 150%;
+        font-size: 200%;
         color: #cec9c9;
+        text-decoration: none;
     }
 
     .header_bandName {
