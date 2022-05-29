@@ -15,6 +15,15 @@ export const MysticFestivalNews = () => {
     const [newsNumeration11AppState, newsNumeration11SetAppState] = useState({news11: []})
     const [newsNumeration12AppState, newsNumeration12SetAppState] = useState({news12: []})
     const [newsNumeration13AppState, newsNumeration13SetAppState] = useState({news13: []})
+    const [newsNumeration14AppState, newsNumeration14SetAppState] = useState({news14: []})
+    const [newsNumeration15AppState, newsNumeration15SetAppState] = useState({news15: []})
+    const [newsNumeration16AppState, newsNumeration16SetAppState] = useState({news16: []})
+    const [newsNumeration17AppState, newsNumeration17SetAppState] = useState({news17: []})
+    const [newsNumeration18AppState, newsNumeration18SetAppState] = useState({news18: []})
+    const [newsNumeration19AppState, newsNumeration19SetAppState] = useState({news19: []})
+    const [newsNumeration20AppState, newsNumeration20SetAppState] = useState({news20: []})
+    const [newsNumeration21AppState, newsNumeration21SetAppState] = useState({news21: []})
+    const [newsNumeration22AppState, newsNumeration22SetAppState] = useState({news22: []})
 
     useEffect(() => {
         const url = "http://localhost:8080/api/v1/mystic_festival/news";
@@ -34,6 +43,15 @@ export const MysticFestivalNews = () => {
                 newsNumeration11SetAppState({news11: response})
                 newsNumeration12SetAppState({news12: response})
                 newsNumeration13SetAppState({news13: response})
+                newsNumeration14SetAppState({news14: response})
+                newsNumeration15SetAppState({news15: response})
+                newsNumeration16SetAppState({news16: response})
+                newsNumeration17SetAppState({news17: response})
+                newsNumeration18SetAppState({news18: response})
+                newsNumeration19SetAppState({news19: response})
+                newsNumeration20SetAppState({news20: response})
+                newsNumeration21SetAppState({news21: response})
+                newsNumeration22SetAppState({news22: response})
             });
     }, []);
 
@@ -45,6 +63,93 @@ export const MysticFestivalNews = () => {
             <br></br>
 
             <ul>
+                {newsNumeration22AppState.news22.map((notices, index) => {
+                    return (
+                        <tr key={index}>{notices.news22}</tr>
+                    )
+                })
+                }
+
+                <br></br>
+                <br></br>
+                {newsNumeration21AppState.news21.map((notices, index) => {
+                    return (
+                        <tr key={index}>{notices.news21}</tr>
+                    )
+                })
+                }
+
+                <br></br>
+                <br></br>
+                {newsNumeration20AppState.news20.map((notices, index) => {
+                    return (
+                        <tr key={index}>{notices.news20}</tr>
+                    )
+                })
+                }
+
+                <br></br>
+                <br></br>
+                {newsNumeration19AppState.news19.map((notices, index) => {
+                    return (
+                        <tr key={index}>{notices.news19}</tr>
+                    )
+                })
+                }
+
+                <br></br>
+                <br></br>
+                {newsNumeration18AppState.news18.map((notices, index) => {
+                    return (
+                        <tr key={index}>{notices.news18}</tr>
+                    )
+                })
+                }
+
+                <br></br>
+                <br></br>
+                {newsNumeration17AppState.news17.map((notices, index) => {
+                    return (
+                        <tr key={index}>{notices.news17}</tr>
+                    )
+                })
+                }
+
+                <br></br>
+                <br></br>
+                {newsNumeration16AppState.news16.map((notices, index) => {
+                    return (
+                        <tr key={index}>{notices.news16}</tr>
+                    )
+                })
+                }
+                <div className="a:link">
+                    <a href="https://www.mysticfestival.pl/pl/file-list/download/24" target="blank"
+                       rel="noreferrer">
+                        REGULAMIN KONKURSU MISTRZOSTWA POLSKI AIR GUITAR 2022
+                    </a>
+                </div>
+
+                <br></br>
+                <br></br>
+                {newsNumeration15AppState.news15.map((notices, index) => {
+                    return (
+                        <tr key={index}>{notices.news15}</tr>
+                    )
+                })
+                }
+
+                <br></br>
+                <br></br>
+                {newsNumeration14AppState.news14.map((notices, index) => {
+                    return (
+                        <tr key={index}>{notices.news14}</tr>
+                    )
+                })
+                }
+
+                <br></br>
+                <br></br>
                 {newsNumeration13AppState.news13.map((notices, index) => {
                     return (
                         <tr key={index}>{notices.news13}</tr>

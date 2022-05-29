@@ -20,10 +20,12 @@ import Katatonia from "../bands/Katatonia";
 import Mgla from "../bands/Mgla";
 import Vader from "../bands/Vader";
 import AlienWeaponry from "../bands/AlienWeaponry";
+import Azarath from "../bands/Azarath";
 
 export const MysticFestivalBands = () => {
 
     const [displayAlienWeaponry] = useState({AlienWeaponry: []});
+    const [displayAzarath] = useState({Azarath: []});
     const [displayBleedFromWithin] = useState({BleedFromWithin: []});
     const [displayCarcass] = useState({Carcass: []});
     const [displayCelticFrost] = useState({CelticFrost: []});
@@ -147,6 +149,8 @@ export const MysticFestivalBands = () => {
                     </div>
                     <a href={"#A"}>Powrót</a>
                     <AlienWeaponry displayAlienWeaponry={displayAlienWeaponry}></AlienWeaponry>
+                    <a href={"#A"}>Powrót</a>
+                    <Azarath displayAzarath={displayAzarath}></Azarath>
                 </div>
 
                 <div id="B" className="row">

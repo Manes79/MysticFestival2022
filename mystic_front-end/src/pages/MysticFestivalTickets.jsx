@@ -34,6 +34,25 @@ export const MysticFestivalTickets = () => {
 
             <ul>
                 <tr>
+                    <div className="a:link">
+                        <a href="https://www.mysticfestival.pl/pl/aktualny-stan-biletow-2705" target="blank"
+                           rel="noreferrer">
+                            27.05.2022: Aktualny stan biletów!
+                            Festiwal odbędzie się na 100%, artyści dadzą z siebie 100%.
+                            A ty? Będziesz na 100%?
+                        </a>
+                    </div>
+
+                    <br></br>
+                    <div className="a:link">
+                        <a href="https://www.mysticfestival.pl/pl/aktualny-stan-biletow-1605" target="blank"
+                           rel="noreferrer">
+                            16.05.2022: Aktualny stan biletów!
+                            Komu bije dzwon? Ten mały dzwoneczek na obrazku – tobie. Żeby potem nie było, że nie ostrzegaliśmy...
+                        </a>
+                    </div>
+
+                    <br></br>
                     {infoTicketsAppState.infoTickets.map((notices, index) => {
                         return (<tr key={index}>{notices.infoTickets}</tr>)
                     })}

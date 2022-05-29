@@ -4,6 +4,7 @@ export const MysticFestivalWarmUpDaysNews = () => {
 
     const [warmUpDaysNumerationAppState, warmUpDaysNumerationSetAppState] = useState({warmUpDayNumeration: []})
     const [warmUpDaysNumeration2AppState, warmUpDaysNumeration2SetAppState] = useState({warmUpDayNumeration2: []})
+    const [warmUpDaysNumeration3AppState, warmUpDaysNumeration3SetAppState] = useState({warmUpDayNumeration3: []})
 
     useEffect(() => {
         const url = "http://localhost:8080/api/v1/mystic_festival/warmupdays";
@@ -12,6 +13,7 @@ export const MysticFestivalWarmUpDaysNews = () => {
             .then(response => {
                 warmUpDaysNumerationSetAppState({warmUpDayNumeration: response})
                 warmUpDaysNumeration2SetAppState({warmUpDayNumeration2: response})
+                warmUpDaysNumeration3SetAppState({warmUpDayNumeration3: response})
             });
     }, []);
 
@@ -23,6 +25,15 @@ export const MysticFestivalWarmUpDaysNews = () => {
             <br></br>
 
             <ul>
+                {warmUpDaysNumeration3AppState.warmUpDayNumeration3.map((notices, index) => {
+                    return (
+                        <tr key={index}>{notices.warmUpDayNumeration3}</tr>
+                    )
+                })
+                }
+
+                <br></br>
+                <br></br>
                 {warmUpDaysNumeration2AppState.warmUpDayNumeration2.map((notices, index) => {
                     return (
                         <tr key={index}>{notices.warmUpDayNumeration2}</tr>
