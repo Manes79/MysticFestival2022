@@ -76,10 +76,12 @@ export const AlienWeaponry = () => {
                     })
                     }
 
-                    <a href="https://www.youtube.com/watch?v=5kwIkF6LFDc" target="blank" rel="noreferrer">Kai Tangata</a>
+                    <a href="https://www.youtube.com/watch?v=5kwIkF6LFDc" target="blank" rel="noreferrer">Kai
+                        Tangata</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=Lx_xGv70Yyo" target="blank" rel="noreferrer">Rū Ana Te Whenua</a>
+                    <a href="https://www.youtube.com/watch?v=Lx_xGv70Yyo" target="blank" rel="noreferrer">Rū Ana Te
+                        Whenua</a>
 
                     <br></br>
                     <a href="https://www.youtube.com/watch?v=yIlBJ4hTJsI" target="blank" rel="noreferrer">Ahi Kā</a>

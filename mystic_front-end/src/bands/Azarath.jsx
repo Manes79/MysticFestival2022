@@ -76,13 +76,16 @@ export const Azarath = () => {
                     })
                     }
 
-                    <a href="https://www.youtube.com/watch?v=VdIHCe1A0Qs" target="blank" rel="noreferrer">Beyond the Gates of Burning Ghats</a>
+                    <a href="https://www.youtube.com/watch?v=VdIHCe1A0Qs" target="blank" rel="noreferrer">Beyond the
+                        Gates of Burning Ghats</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=b04DvVE9bSI" target="blank" rel="noreferrer">Blasphemers Malediction</a>
+                    <a href="https://www.youtube.com/watch?v=b04DvVE9bSI" target="blank" rel="noreferrer">Blasphemers
+                        Malediction</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=M8OI1s1wAmc" target="blank" rel="noreferrer">Saint Desecration</a>
+                    <a href="https://www.youtube.com/watch?v=M8OI1s1wAmc" target="blank" rel="noreferrer">Saint
+                        Desecration</a>
 
                     <br></br>
                     <br></br>
@@ -95,7 +98,7 @@ export const Azarath = () => {
                     <a href="https://www.facebook.com/AzarathBand/" target="blank" rel="noreferrer">Facebook</a>
 
                     <br></br>
-                    <a href="https://azarath.agoniarecords.com/" target="blank" rel="noreferrer">Merch</a>
+                    <a href="https://dopelord.agoniarecords.com/" target="blank" rel="noreferrer">Merch</a>
 
                 </ul>
 

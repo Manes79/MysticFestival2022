@@ -48,7 +48,8 @@ export const MysticFestivalTickets = () => {
                         <a href="https://www.mysticfestival.pl/pl/aktualny-stan-biletow-1605" target="blank"
                            rel="noreferrer">
                             16.05.2022: Aktualny stan biletów!
-                            Komu bije dzwon? Ten mały dzwoneczek na obrazku – tobie. Żeby potem nie było, że nie ostrzegaliśmy...
+                            Komu bije dzwon? Ten mały dzwoneczek na obrazku – tobie. Żeby potem nie było, że nie
+                            ostrzegaliśmy...
                         </a>
                     </div>
 

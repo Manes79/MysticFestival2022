@@ -21,15 +21,23 @@ import Mgla from "../bands/Mgla";
 import Vader from "../bands/Vader";
 import AlienWeaponry from "../bands/AlienWeaponry";
 import Azarath from "../bands/Azarath";
+import Baroness from "../bands/Baroness";
+import Decapitated from "../bands/Decapitated";
+import Dolch from "../bands/Dolch";
+import Dopelord from "../bands/Dopelord";
 
 export const MysticFestivalBands = () => {
 
     const [displayAlienWeaponry] = useState({AlienWeaponry: []});
     const [displayAzarath] = useState({Azarath: []});
+    const [displayBaroness] = useState({Baroness: []});
     const [displayBleedFromWithin] = useState({BleedFromWithin: []});
     const [displayCarcass] = useState({Carcass: []});
     const [displayCelticFrost] = useState({CelticFrost: []});
     const [displayCodeOrange] = useState({CodeOrange: []});
+    const [displayDecapitated] = useState({Decapitated: []});
+    const [displayDolch] = useState({Dolch: []});
+    const [displayDopelord] = useState({Dopelord: []});
     const [displayHellhammer] = useState({Hellhammer: []});
     const [displayIgorrr] = useState({Igorrr: []});
     const [displayJudasPriest] = useState({JudasPriest: []});
@@ -158,6 +166,8 @@ export const MysticFestivalBands = () => {
                         <th>B</th>
                     </div>
                     <a href={"#A"}>Powrót</a>
+                    <Baroness displayBaroness={displayBaroness}></Baroness>
+                    <a href={"#A"}>Powrót</a>
                     <BleedFromWithin displayBleedFromWithin={displayBleedFromWithin}></BleedFromWithin>
                 </div>
 
@@ -171,6 +181,18 @@ export const MysticFestivalBands = () => {
                     <CelticFrost displayCelticFrost={displayCelticFrost}></CelticFrost>
                     <a href={"#A"}>Powrót</a>
                     <CodeOrange displayCodeOrange={displayCodeOrange}></CodeOrange>
+                </div>
+
+                <div id="D" className="row">
+                    <div className="header_alphabet">
+                        <th>D</th>
+                    </div>
+                    <a href={"#A"}>Powrót</a>
+                    <Decapitated displayDecapitated={displayDecapitated}></Decapitated>
+                    <a href={"#A"}>Powrót</a>
+                    <Dolch displayDolch={displayDolch}></Dolch>
+                    <a href={"#A"}>Powrót</a>
+                    <Dopelord displayDopelord={displayDopelord}></Dopelord>
                 </div>
 
                 <div id="H" className="row">

@@ -2,7 +2,6 @@ package pl.manes.mysticfestival2022.bands.azarath;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import pl.manes.mysticfestival2022.bands.alienweaponry.AlienWeaponry;
 
 import java.util.UUID;
 
