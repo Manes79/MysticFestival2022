@@ -49,6 +49,8 @@ export const MysticFestivalBands = () => {
 
         <div className="body">
 
+            <a href={"#top"} className="header_alphabet_links"></a>
+
             <center>
                 <a href={"#A"} className="header_alphabet_links">
                     <th>A</th>
