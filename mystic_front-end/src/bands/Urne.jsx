@@ -96,9 +96,8 @@ export const Urne = () => {
                     }
                     <a href="https://www.facebook.com/urneband/?ref=page_internal" target="blank"
                        rel="noreferrer">Facebook</a>
-
                     <br></br>
-                    <a href="https://vader.bigcartel.com" target="blank" rel="noreferrer">Merch</a>
+                    <a href="https://urne1.bandcamp.com/" target="blank" rel="noreferrer">Merch</a>
 
                 </ul>
 

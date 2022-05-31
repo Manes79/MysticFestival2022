@@ -94,7 +94,7 @@ export const Obituary = () => {
                         )
                     })
                     }
-                    <a href="https://www.obituary.cc/" target="blank" rel="noreferrer">www.obituary.cc</a>
+                    <a href="https://www.obituary.cc/" target="blank" rel="noreferrer">www.obituary.com</a>
 
                 </ul>
 

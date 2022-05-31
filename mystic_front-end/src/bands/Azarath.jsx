@@ -98,7 +98,7 @@ export const Azarath = () => {
                     <a href="https://www.facebook.com/AzarathBand/" target="blank" rel="noreferrer">Facebook</a>
 
                     <br></br>
-                    <a href="https://dopelord.agoniarecords.com/" target="blank" rel="noreferrer">Merch</a>
+                    <a href="https://azarath.agoniarecords.com/" target="blank" rel="noreferrer">Merch</a>
 
                 </ul>
 

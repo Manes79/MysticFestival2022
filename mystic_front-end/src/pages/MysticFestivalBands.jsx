@@ -25,10 +25,14 @@ import Baroness from "../bands/Baroness";
 import Decapitated from "../bands/Decapitated";
 import Dolch from "../bands/Dolch";
 import Dopelord from "../bands/Dopelord";
+import Arabrot from "../bands/Arabrot";
+import O from "../bands/O";
+import Ukraine from "../bands/Ukraine";
 
 export const MysticFestivalBands = () => {
 
     const [displayAlienWeaponry] = useState({AlienWeaponry: []});
+    const [displayArabrot] = useState({Arabrot: []});
     const [displayAzarath] = useState({Azarath: []});
     const [displayBaroness] = useState({Baroness: []});
     const [displayBleedFromWithin] = useState({BleedFromWithin: []});
@@ -46,6 +50,7 @@ export const MysticFestivalBands = () => {
     const [displayMastodon] = useState({Mastodon: []});
     const [displayMercyfulFate] = useState({MercyfulFate: []});
     const [displayMgla] = useState({Mgla: []});
+    const [displayO] = useState({O: []});
     const [displayObituary] = useState({Obituary: []});
     const [displayOpeth] = useState({Opeth: []});
     const [displaySaxon] = useState({Saxon: []});
@@ -53,6 +58,7 @@ export const MysticFestivalBands = () => {
     const [displayTheRavenAge] = useState({TheRavenAge: []});
     const [displayTriptykon] = useState({Triptykon: []});
     const [displayUrne] = useState({Urne: []});
+    const [displayUkraine] = useState({Ukraine: []});
     const [displayVader] = useState({Vader: []});
 
     return (
@@ -158,6 +164,8 @@ export const MysticFestivalBands = () => {
                     <a href={"#A"}>Powrót</a>
                     <AlienWeaponry displayAlienWeaponry={displayAlienWeaponry}></AlienWeaponry>
                     <a href={"#A"}>Powrót</a>
+                    <Arabrot displayArabrot={displayArabrot}></Arabrot>
+                    <a href={"#A"}>Powrót</a>
                     <Azarath displayAzarath={displayAzarath}></Azarath>
                 </div>
 
@@ -246,6 +254,8 @@ export const MysticFestivalBands = () => {
                         <th>O</th>
                     </div>
                     <a href={"#A"}>Powrót</a>
+                    <O displayO={displayO}></O>
+                    <a href={"#A"}>Powrót</a>
                     <Obituary displayObituary={displayObituary}></Obituary>
                     <a href={"#A"}>Powrót</a>
                     <Opeth displayOpeth={displayOpeth}></Opeth>
@@ -277,6 +287,8 @@ export const MysticFestivalBands = () => {
                     </div>
                     <a href={"#A"}>Powrót</a>
                     <Urne displayUrne={displayUrne}></Urne>
+                    <a href={"#A"}>Powrót</a>
+                    <Ukraine displayUkraine={displayUkraine}></Ukraine>
                 </div>
 
                 <div id="V" className="row">
