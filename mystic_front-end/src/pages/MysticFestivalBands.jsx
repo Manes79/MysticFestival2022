@@ -49,7 +49,9 @@ export const MysticFestivalBands = () => {
 
         <div className="body">
 
-            <a href={"#top"} className="header_alphabet_links"></a>
+            <a href={"#top"} className="header_alphabet_links">
+                <th></th>
+            </a>
 
             <center>
                 <a href={"#A"} className="header_alphabet_links">
@@ -147,7 +149,7 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>A</th>
                     </div>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <AlienWeaponry displayAlienWeaponry={displayAlienWeaponry}></AlienWeaponry>
                 </div>
 
@@ -155,7 +157,7 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>B</th>
                     </div>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <BleedFromWithin displayBleedFromWithin={displayBleedFromWithin}></BleedFromWithin>
                 </div>
 
@@ -163,11 +165,11 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>C</th>
                     </div>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <Carcass displayCarcass={displayCarcass}></Carcass>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <CelticFrost displayCelticFrost={displayCelticFrost}></CelticFrost>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <CodeOrange displayCodeOrange={displayCodeOrange}></CodeOrange>
                 </div>
 
@@ -175,7 +177,7 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>H</th>
                     </div>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <Hellhammer displayHellhammer={displayHellhammer}></Hellhammer>
                 </div>
 
@@ -183,7 +185,7 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>I</th>
                     </div>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <Igorrr displayIgorrr={displayIgorrr}></Igorrr>
                 </div>
 
@@ -191,7 +193,7 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>J</th>
                     </div>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <JudasPriest displayJudasPriest={displayJudasPriest}></JudasPriest>
                 </div>
 
@@ -199,9 +201,9 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>K</th>
                     </div>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <Katatonia displayKatatonia={displayKatatonia}></Katatonia>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <KillingJoke displayKillilngJoke={displayKillingJoke}></KillingJoke>
                 </div>
 
@@ -209,11 +211,11 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>M</th>
                     </div>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <Mastodon displayMastodon={displayMastodon}></Mastodon>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <MercyfulFate displayMercyfulFate={displayMercyfulFate}></MercyfulFate>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <Mgla displayMgla={displayMgla}></Mgla>
                 </div>
 
@@ -221,9 +223,9 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>O</th>
                     </div>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <Obituary displayObituary={displayObituary}></Obituary>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <Opeth displayOpeth={displayOpeth}></Opeth>
                 </div>
 
@@ -231,7 +233,7 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>S</th>
                     </div>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <Saxon displaySaxon={displaySaxon}></Saxon>
                 </div>
 
@@ -239,11 +241,11 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>T</th>
                     </div>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <TheMateria displayTheMateria={displayTheMateria}></TheMateria>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <TheRavenAge displayTheRavenAge={displayTheRavenAge}></TheRavenAge>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <Triptykon displayTriptykon={displayTriptykon}></Triptykon>
                 </div>
 
@@ -251,7 +253,7 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>U</th>
                     </div>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <Urne displayUrne={displayUrne}></Urne>
                 </div>
 
@@ -259,7 +261,7 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>V</th>
                     </div>
-                    <a href={"#A"}>Powrót</a>
+                    <a href={"#top"}>Powrót</a>
                     <Vader displayVader={displayVader}></Vader>
                 </div>
 
