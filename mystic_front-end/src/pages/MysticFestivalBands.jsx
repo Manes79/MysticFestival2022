@@ -28,6 +28,7 @@ import Dopelord from "../bands/Dopelord";
 import Arabrot from "../bands/Arabrot";
 import O from "../bands/O";
 import Ukraine from "../bands/Ukraine";
+import Lik from "../bands/Lik";
 
 export const MysticFestivalBands = () => {
 
@@ -47,6 +48,7 @@ export const MysticFestivalBands = () => {
     const [displayJudasPriest] = useState({JudasPriest: []});
     const [displayKillingJoke] = useState({KillingJoke: []});
     const [displayKatatonia] = useState({Katatonia: []});
+    const [displayLik] = useState({Lik: []});
     const [displayMastodon] = useState({Mastodon: []});
     const [displayMercyfulFate] = useState({MercyfulFate: []});
     const [displayMgla] = useState({Mgla: []});
@@ -237,6 +239,14 @@ export const MysticFestivalBands = () => {
                     <Katatonia displayKatatonia={displayKatatonia}></Katatonia>
                     <a href={"#top"}>Powrót</a>
                     <KillingJoke displayKillilngJoke={displayKillingJoke}></KillingJoke>
+                </div>
+
+                <div id="L" className="row">
+                    <div className="header_alphabet">
+                        <th>L</th>
+                    </div>
+                    <a href={"#top"}>Powrót</a>
+                    <Lik displayLik={displayLik}></Lik>
                 </div>
 
                 <div id="M" className="row">
