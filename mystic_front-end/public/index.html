@@ -8,31 +8,9 @@
 
 <body>
 
-<noscript>You need to enable JavaScript to run this app.</noscript>
+<noscript></noscript>
 
 <div id="root"></div>
-
-<script>
-    import * as ReactRouterDOM from "react-router-dom";
-
-    const e = React.createElement;
-    const Router = ReactRouterDOM.BrowserRouter;
-    const Routes = ReactRouterDOM.Route;
-    const Route = ReactRouterDOM.Route;
-
-    ReactDOM.render(
-        (
-            e(Router, null, (
-                e(Routes, null, (
-                    e(Route, {
-                        element: e('div', null, 'Hello, React Router!')
-                    })
-                ))
-            ))
-        ),
-        document.getElementById('root')
-    );
-</script>
 
 </body>
 

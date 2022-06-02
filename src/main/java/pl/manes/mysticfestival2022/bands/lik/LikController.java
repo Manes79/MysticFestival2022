@@ -15,12 +15,12 @@ public class LikController {
     private final LikService likService;
 
     @GetMapping
-    Iterable<Lik> getLik(){
+    Iterable<Lik> getLik() {
         return likService.getLik();
     }
 
     @GetMapping("{id}")
-    Lik getLik(@PathVariable UUID id){
+    Lik getLik(@PathVariable UUID id) {
         return likService.getLik(id);
     }
 
@@ -31,7 +31,7 @@ public class LikController {
     }
 
     @PutMapping("{id}")
-    Lik updateLik(@PathVariable UUID id, @RequestBody Lik lik){
+    Lik updateLik(@PathVariable UUID id, @RequestBody Lik lik) {
         return likService.updateLik(id, lik);
     }
 

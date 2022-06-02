@@ -6,10 +6,8 @@ const MysticFestivalLayout = () => {
     return (
 
         <div className="header">
-            <ul>
-                <th>Mystic Festival
-                </th>
-            </ul>
+
+            <th>Mystic Festival</th>
 
             <div className="li a">
                 <nav>

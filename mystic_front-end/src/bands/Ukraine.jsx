@@ -76,13 +76,16 @@ export const Ukraine = () => {
                     })
                     }
 
-                    <a href="https://www.youtube.com/watch?v=O5eIj2ePC5E" target="blank" rel="noreferrer">The Blind Leading the Blind</a>
+                    <a href="https://www.youtube.com/watch?v=O5eIj2ePC5E" target="blank" rel="noreferrer">The Blind
+                        Leading the Blind</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=9u3MOvWuLH4" target="blank" rel="noreferrer">Where Fear and Weapons Meet</a>
+                    <a href="https://www.youtube.com/watch?v=9u3MOvWuLH4" target="blank" rel="noreferrer">Where Fear and
+                        Weapons Meet</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=d8G4JnfeCu0" target="blank" rel="noreferrer">The Hundred Days Offensive</a>
+                    <a href="https://www.youtube.com/watch?v=d8G4JnfeCu0" target="blank" rel="noreferrer">The Hundred
+                        Days Offensive</a>
 
                     <br></br>
                     <br></br>

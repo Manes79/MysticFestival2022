@@ -76,13 +76,15 @@ export const Arabrot = () => {
                     })
                     }
 
-                    <a href="https://www.youtube.com/watch?v=P2q8JdHH8Q4" target="blank" rel="noreferrer">Fumble Finger</a>
+                    <a href="https://www.youtube.com/watch?v=P2q8JdHH8Q4" target="blank" rel="noreferrer">Fumble
+                        Finger</a>
 
                     <br></br>
                     <a href="https://www.youtube.com/watch?v=tMF3Vm-MqFo" target="blank" rel="noreferrer">Tall Man</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=76Fl6tQYCdY" target="blank" rel="noreferrer">Ha-Satan Dêofol</a>
+                    <a href="https://www.youtube.com/watch?v=76Fl6tQYCdY" target="blank" rel="noreferrer">Ha-Satan
+                        Dêofol</a>
 
                     <br></br>
                     <br></br>

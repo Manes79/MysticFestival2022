@@ -29,6 +29,9 @@ import Arabrot from "../bands/Arabrot";
 import O from "../bands/O";
 import Ukraine from "../bands/Ukraine";
 import Lik from "../bands/Lik";
+import Proscription from "../bands/Proscription.jsx";
+import TesterGier from "../bands/TesterGier.jsx";
+import Wiegedood from "../bands/Wiegedood.jsx";
 
 export const MysticFestivalBands = () => {
 
@@ -55,19 +58,24 @@ export const MysticFestivalBands = () => {
     const [displayO] = useState({O: []});
     const [displayObituary] = useState({Obituary: []});
     const [displayOpeth] = useState({Opeth: []});
+    const [displayProscription] = useState({Proscription: []});
     const [displaySaxon] = useState({Saxon: []});
+    const [displayTesterGier] = useState({TesterGier: []});
     const [displayTheMateria] = useState({TheMateria: []});
     const [displayTheRavenAge] = useState({TheRavenAge: []});
     const [displayTriptykon] = useState({Triptykon: []});
     const [displayUrne] = useState({Urne: []});
     const [displayUkraine] = useState({Ukraine: []});
+    const [displayWiegedood] = useState({Wiegedood: []});
     const [displayVader] = useState({Vader: []});
-
+    
     return (
 
         <div className="body">
 
-            <a href={"#top"} className="header_alphabet_links"><th></th></a>
+            <a href={"#top"} className="header_alphabet_links">
+                <th></th>
+            </a>
 
             <center>
                 <a href={"#A"} className="header_alphabet_links">
@@ -273,6 +281,14 @@ export const MysticFestivalBands = () => {
                     <Opeth displayOpeth={displayOpeth}></Opeth>
                 </div>
 
+                <div id="P" className="row">
+                    <div className="header_alphabet">
+                        <th>P</th>
+                    </div>
+                    <a href={"#top"}>Powrót</a>
+                    <Proscription displayProscription={displayProscription}></Proscription>
+                </div>
+
                 <div id="S" className="row">
                     <div className="header_alphabet">
                         <th>S</th>
@@ -285,6 +301,8 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>T</th>
                     </div>
+                    <a href={"#top"}>Powrót</a>
+                    <TesterGier displayTesterGier={displayTesterGier}></TesterGier>
                     <a href={"#top"}>Powrót</a>
                     <TheMateria displayTheMateria={displayTheMateria}></TheMateria>
                     <a href={"#top"}>Powrót</a>
@@ -301,6 +319,14 @@ export const MysticFestivalBands = () => {
                     <Urne displayUrne={displayUrne}></Urne>
                     <a href={"#top"}>Powrót</a>
                     <Ukraine displayUkraine={displayUkraine}></Ukraine>
+                </div>
+
+                <div id="W" className="row">
+                    <div className="header_alphabet">
+                        <th>W</th>
+                    </div>
+                    <a href={"#top"}>Powrót</a>
+                    <Wiegedood displayWiegedood={displayWiegedood}></Wiegedood>
                 </div>
 
                 <div id="V" className="row">

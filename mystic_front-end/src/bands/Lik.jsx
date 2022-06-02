@@ -76,7 +76,8 @@ export const Lik = () => {
                     })
                     }
 
-                    <a href="https://www.youtube.com/watch?v=3xmFYnkv1lA" target="blank" rel="noreferrer">Misanthropic Breed</a>
+                    <a href="https://www.youtube.com/watch?v=3xmFYnkv1lA" target="blank" rel="noreferrer">Misanthropic
+                        Breed</a>
 
                     <br></br>
                     <a href="https://www.youtube.com/watch?v=O3sMCFvE-6s" target="blank" rel="noreferrer">Decay</a>
