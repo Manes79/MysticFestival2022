@@ -32,12 +32,14 @@ import Lik from "../bands/Lik";
 import Proscription from "../bands/Proscription.jsx";
 import TesterGier from "../bands/TesterGier.jsx";
 import Wiegedood from "../bands/Wiegedood.jsx";
+import Baest from "../bands/Baest.jsx";
 
 export const MysticFestivalBands = () => {
 
     const [displayAlienWeaponry] = useState({AlienWeaponry: []});
     const [displayArabrot] = useState({Arabrot: []});
     const [displayAzarath] = useState({Azarath: []});
+    const [displayBaest] = useState({Baest: []});
     const [displayBaroness] = useState({Baroness: []});
     const [displayBleedFromWithin] = useState({BleedFromWithin: []});
     const [displayCarcass] = useState({Carcass: []});
@@ -68,7 +70,7 @@ export const MysticFestivalBands = () => {
     const [displayUkraine] = useState({Ukraine: []});
     const [displayWiegedood] = useState({Wiegedood: []});
     const [displayVader] = useState({Vader: []});
-    
+
     return (
 
         <div className="body">
@@ -185,6 +187,8 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>B</th>
                     </div>
+                    <a href={"#top"}>Powrót</a>
+                    <Baest displayBaest={displayBaest}></Baest>
                     <a href={"#top"}>Powrót</a>
                     <Baroness displayBaroness={displayBaroness}></Baroness>
                     <a href={"#top"}>Powrót</a>
