@@ -80,7 +80,8 @@ export const Wiegedood = () => {
                        target="blank" rel="noreferrer">FN SCAR 16</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=FxG1Kwk7Tnk" target="blank" rel="noreferrer">De Doden Hebben het Goed II</a>
+                    <a href="https://www.youtube.com/watch?v=FxG1Kwk7Tnk" target="blank" rel="noreferrer">De Doden
+                        Hebben het Goed II</a>
 
                     <br></br>
                     <a href="https://www.youtube.com/watch?v=j5fECeGxkEw" target="blank" rel="noreferrer">Parool</a>

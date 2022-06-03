@@ -79,10 +79,12 @@ export const Baest = () => {
                     <a href="https://www.youtube.com/watch?v=qMbrq9iQ0Nk" target="blank" rel="noreferrer"> Genesis</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=JsgkLc5kYtU" target="blank" rel="noreferrer">As Above So Below</a>
+                    <a href="https://www.youtube.com/watch?v=JsgkLc5kYtU" target="blank" rel="noreferrer">As Above So
+                        Below</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=6S-n1Kw4HQU" target="blank" rel="noreferrer"> Necro Sapiens</a>
+                    <a href="https://www.youtube.com/watch?v=6S-n1Kw4HQU" target="blank" rel="noreferrer"> Necro
+                        Sapiens</a>
 
                     <br></br>
                     <br></br>
