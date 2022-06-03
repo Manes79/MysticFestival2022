@@ -33,6 +33,7 @@ import Proscription from "../bands/Proscription.jsx";
 import TesterGier from "../bands/TesterGier.jsx";
 import Wiegedood from "../bands/Wiegedood.jsx";
 import Baest from "../bands/Baest.jsx";
+import Czern from "../bands/Czern.jsx";
 
 export const MysticFestivalBands = () => {
 
@@ -45,6 +46,7 @@ export const MysticFestivalBands = () => {
     const [displayCarcass] = useState({Carcass: []});
     const [displayCelticFrost] = useState({CelticFrost: []});
     const [displayCodeOrange] = useState({CodeOrange: []});
+    const [displayCzern] = useState({Czern: []});
     const [displayDecapitated] = useState({Decapitated: []});
     const [displayDolch] = useState({Dolch: []});
     const [displayDopelord] = useState({Dopelord: []});
@@ -205,6 +207,8 @@ export const MysticFestivalBands = () => {
                     <CelticFrost displayCelticFrost={displayCelticFrost}></CelticFrost>
                     <a href={"#top"}>Powrót</a>
                     <CodeOrange displayCodeOrange={displayCodeOrange}></CodeOrange>
+                    <a href={"#top"}>Powrót</a>
+                    <Czern displayCzern={displayCzern}></Czern>
                 </div>
 
                 <div id="D" className="row">
