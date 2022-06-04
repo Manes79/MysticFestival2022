@@ -34,6 +34,11 @@ import TesterGier from "../bands/TesterGier.jsx";
 import Wiegedood from "../bands/Wiegedood.jsx";
 import Baest from "../bands/Baest.jsx";
 import Czern from "../bands/Czern.jsx";
+import DeadLord from "../bands/DeadLord.jsx";
+import Deluge from "../bands/Deluge.jsx";
+import Dwaal from "../bands/Dwaal.jsx";
+import Favorit89 from "../bands/Favorit89.jsx";
+import Fleshworld from "../bands/Fleshworld.jsx";
 
 export const MysticFestivalBands = () => {
 
@@ -47,9 +52,14 @@ export const MysticFestivalBands = () => {
     const [displayCelticFrost] = useState({CelticFrost: []});
     const [displayCodeOrange] = useState({CodeOrange: []});
     const [displayCzern] = useState({Czern: []});
+    const [displayDeadLord] = useState({DeadLord: []});
     const [displayDecapitated] = useState({Decapitated: []});
+    const [displayDeluge] = useState({Deluge: []});
     const [displayDolch] = useState({Dolch: []});
     const [displayDopelord] = useState({Dopelord: []});
+    const [displayDwaal] = useState({Dwaal: []});
+    const [displayFavorit89] = useState({Favorit89: []});
+    const [displayFleshworld] = useState({Fleshworld: []});
     const [displayHellhammer] = useState({Hellhammer: []});
     const [displayIgorrr] = useState({Igorrr: []});
     const [displayJudasPriest] = useState({JudasPriest: []});
@@ -216,11 +226,27 @@ export const MysticFestivalBands = () => {
                         <th>D</th>
                     </div>
                     <a href={"#top"}>Powrót</a>
+                    <DeadLord displayDeadLord={displayDeadLord}></DeadLord>
+                    <a href={"#top"}>Powrót</a>
                     <Decapitated displayDecapitated={displayDecapitated}></Decapitated>
+                    <a href={"#top"}>Powrót</a>
+                    <Deluge displayDeluge={displayDeluge}></Deluge>
                     <a href={"#top"}>Powrót</a>
                     <Dolch displayDolch={displayDolch}></Dolch>
                     <a href={"#top"}>Powrót</a>
                     <Dopelord displayDopelord={displayDopelord}></Dopelord>
+                    <a href={"#top"}>Powrót</a>
+                    <Dwaal displayDwaal={displayDwaal}></Dwaal>
+                </div>
+
+                <div id="F" className="row">
+                    <div className="header_alphabet">
+                        <th>F</th>
+                    </div>
+                    <a href={"#top"}>Powrót</a>
+                    <Favorit89 displayFavorit89={displayFavorit89}></Favorit89>
+                    <a href={"#top"}>Powrót</a>
+                    <Fleshworld displayFleshworld={displayFleshworld}></Fleshworld>
                 </div>
 
                 <div id="H" className="row">
