@@ -39,6 +39,12 @@ import Deluge from "../bands/Deluge.jsx";
 import Dwaal from "../bands/Dwaal.jsx";
 import Favorit89 from "../bands/Favorit89.jsx";
 import Fleshworld from "../bands/Fleshworld.jsx";
+import Gaerea from "../bands/Gaerea.jsx";
+import Gold from "../bands/Gold.jsx";
+import GreenLung from "../bands/GreenLung.jsx";
+import HangmansChair from "../bands/HangmansChair.jsx";
+import Heathen from "../bands/Heathen.jsx";
+import Heilung from "../bands/Heilung.jsx";
 
 export const MysticFestivalBands = () => {
 
@@ -60,6 +66,12 @@ export const MysticFestivalBands = () => {
     const [displayDwaal] = useState({Dwaal: []});
     const [displayFavorit89] = useState({Favorit89: []});
     const [displayFleshworld] = useState({Fleshworld: []});
+    const [displayGaerea] = useState({Gaerea: []});
+    const [displayGold] = useState({Gold: []});
+    const [displayGreenLung] = useState({GreenLung: []});
+    const [displayHangmansChair] = useState({HangmansChair: []});
+    const [displayHeathen] = useState({Heathen: []});
+    const [displayHeilung] = useState({Heilung: []});
     const [displayHellhammer] = useState({Hellhammer: []});
     const [displayIgorrr] = useState({Igorrr: []});
     const [displayJudasPriest] = useState({JudasPriest: []});
@@ -249,12 +261,31 @@ export const MysticFestivalBands = () => {
                     <Fleshworld displayFleshworld={displayFleshworld}></Fleshworld>
                 </div>
 
+                <div id="G" className="row">
+                    <div className="header_alphabet">
+                        <th>G</th>
+                    </div>
+                    <a href={"#top"}>Powrót</a>
+                    <Gaerea displayGaerea={displayGaerea}></Gaerea>
+                    <a href={"#top"}>Powrót</a>
+                    <Gold displayGold={displayGold}></Gold>
+                    <a href={"#top"}>Powrót</a>
+                    <GreenLung displayGreenLung={displayGreenLung}></GreenLung>
+                </div>
+
                 <div id="H" className="row">
                     <div className="header_alphabet">
                         <th>H</th>
                     </div>
                     <a href={"#top"}>Powrót</a>
+                    <HangmansChair displayHangmansChair={displayHangmansChair}></HangmansChair>
+                    <a href={"#top"}>Powrót</a>
+                    <Heathen displayHeathen={displayHeathen}></Heathen>
+                    <a href={"#top"}>Powrót</a>
+                    <Heilung displayHeilung={displayHeilung}></Heilung>
+                    <a href={"#top"}>Powrót</a>
                     <Hellhammer displayHellhammer={displayHellhammer}></Hellhammer>
+
                 </div>
 
                 <div id="I" className="row">
