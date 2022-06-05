@@ -45,6 +45,7 @@ import GreenLung from "../bands/GreenLung.jsx";
 import HangmansChair from "../bands/HangmansChair.jsx";
 import Heathen from "../bands/Heathen.jsx";
 import Heilung from "../bands/Heilung.jsx";
+import ImperialTriumphant from "../bands/ImperialTriumphant.jsx";
 
 export const MysticFestivalBands = () => {
 
@@ -74,6 +75,7 @@ export const MysticFestivalBands = () => {
     const [displayHeilung] = useState({Heilung: []});
     const [displayHellhammer] = useState({Hellhammer: []});
     const [displayIgorrr] = useState({Igorrr: []});
+    const [displayImperialTriumphant] = useState({ImperialTriumphant: []});
     const [displayJudasPriest] = useState({JudasPriest: []});
     const [displayKillingJoke] = useState({KillingJoke: []});
     const [displayKatatonia] = useState({Katatonia: []});
@@ -294,6 +296,8 @@ export const MysticFestivalBands = () => {
                     </div>
                     <a href={"#top"}>Powrót</a>
                     <Igorrr displayIgorrr={displayIgorrr}></Igorrr>
+                    <a href={"#top"}>Powrót</a>
+                    <ImperialTriumphant displayImperialTriumphant={displayImperialTriumphant}></ImperialTriumphant>
                 </div>
 
                 <div id="J" className="row">
