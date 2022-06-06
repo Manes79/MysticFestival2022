@@ -76,13 +76,16 @@ export const ImperialTriumphant = () => {
                     })
                     }
 
-                    <a href="https://www.youtube.com/watch?v=qPkPY0zK8Yw" target="blank" rel="noreferrer">Rotted Futures</a>
+                    <a href="https://www.youtube.com/watch?v=qPkPY0zK8Yw" target="blank" rel="noreferrer">Rotted
+                        Futures</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=sNDuiaa_QrY" target="blank" rel="noreferrer">SWARMING OPULENCE</a>
+                    <a href="https://www.youtube.com/watch?v=sNDuiaa_QrY" target="blank" rel="noreferrer">SWARMING
+                        OPULENCE</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=afv9qAXF5NE" target="blank" rel="noreferrer">Chernobyl Blues</a>
+                    <a href="https://www.youtube.com/watch?v=afv9qAXF5NE" target="blank" rel="noreferrer">Chernobyl
+                        Blues</a>
 
                     <br></br>
                     <br></br>
