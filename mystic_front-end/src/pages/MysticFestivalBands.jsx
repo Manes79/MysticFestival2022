@@ -47,6 +47,7 @@ import Heathen from "../bands/Heathen.jsx";
 import Heilung from "../bands/Heilung.jsx";
 import ImperialTriumphant from "../bands/ImperialTriumphant.jsx";
 import InfectedRain from "../bands/InfectedRain.jsx";
+import Kvelertak from "../bands/Kvelertak.jsx";
 
 export const MysticFestivalBands = () => {
 
@@ -79,8 +80,9 @@ export const MysticFestivalBands = () => {
     const [displayImperialTriumphant] = useState({ImperialTriumphant: []});
     const [displayInfectedRain] = useState({InfectedRain: []});
     const [displayJudasPriest] = useState({JudasPriest: []});
-    const [displayKillingJoke] = useState({KillingJoke: []});
     const [displayKatatonia] = useState({Katatonia: []});
+    const [displayKillingJoke] = useState({KillingJoke: []});
+    const [displayKvelertak] = useState({Kvelertak: []});
     const [displayLik] = useState({Lik: []});
     const [displayMastodon] = useState({Mastodon: []});
     const [displayMercyfulFate] = useState({MercyfulFate: []});
@@ -320,6 +322,8 @@ export const MysticFestivalBands = () => {
                     <Katatonia displayKatatonia={displayKatatonia}></Katatonia>
                     <a href={"#top"}>Powrót</a>
                     <KillingJoke displayKillilngJoke={displayKillingJoke}></KillingJoke>
+                    <a href={"#top"}>Powrót</a>
+                    <Kvelertak displayKvelertak={displayKvelertak}></Kvelertak>
                 </div>
 
                 <div id="L" className="row">
