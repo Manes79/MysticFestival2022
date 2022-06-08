@@ -48,6 +48,15 @@ import Heilung from "../bands/Heilung.jsx";
 import ImperialTriumphant from "../bands/ImperialTriumphant.jsx";
 import InfectedRain from "../bands/InfectedRain.jsx";
 import Kvelertak from "../bands/Kvelertak.jsx";
+import MaggotHeart from "../bands/MaggotHeart.jsx";
+import Mayhem from "../bands/Mayhem.jsx";
+import MedicoPeste from "../bands/MedicoPeste.jsx";
+import Motanka from "../bands/Motanka.jsx";
+import Okkultokrati from "../bands/Okkultokrati.jsx";
+import OvO from "../bands/OvO.jsx";
+import RagingSpeedhorn from "../bands/RagingSpeedhorn.jsx";
+import SkeletalRemains from "../bands/SkeletalRemains.jsx";
+import Solstafir from "../bands/Solstafir.jsx";
 
 export const MysticFestivalBands = () => {
 
@@ -84,14 +93,23 @@ export const MysticFestivalBands = () => {
     const [displayKillingJoke] = useState({KillingJoke: []});
     const [displayKvelertak] = useState({Kvelertak: []});
     const [displayLik] = useState({Lik: []});
+    const [displayMaggotHeart] = useState({MaggotHeart: []});
     const [displayMastodon] = useState({Mastodon: []});
+    const [displayMayhem] = useState({Mayhem: []});
+    const [displayMedicoPeste] = useState({MedicoPeste: []});
     const [displayMercyfulFate] = useState({MercyfulFate: []});
     const [displayMgla] = useState({Mgla: []});
+    const [displayMotanka] = useState({Motanka: []});
     const [displayO] = useState({O: []});
     const [displayObituary] = useState({Obituary: []});
+    const [displayOkkultokrati] = useState({Okkultokrati: []});
     const [displayOpeth] = useState({Opeth: []});
+    const [displayOvO] = useState({OvO: []});
     const [displayProscription] = useState({Proscription: []});
+    const [displayRagingSpeedhorn] = useState({RagingSpeedhorn: []});
     const [displaySaxon] = useState({Saxon: []});
+    const [displaySkeletalRemains] = useState({SkeletalRemains: []});
+    const [displaySolstafir] = useState({Solstafir: []});
     const [displayTesterGier] = useState({TesterGier: []});
     const [displayTheMateria] = useState({TheMateria: []});
     const [displayTheRavenAge] = useState({TheRavenAge: []});
@@ -339,11 +357,19 @@ export const MysticFestivalBands = () => {
                         <th>M</th>
                     </div>
                     <a href={"#top"}>Powrót</a>
+                    <MaggotHeart displayMaggotHeart={displayMaggotHeart}></MaggotHeart>
+                    <a href={"#top"}>Powrót</a>
                     <Mastodon displayMastodon={displayMastodon}></Mastodon>
+                    <a href={"#top"}>Powrót</a>
+                    <Mayhem displayMayhem={displayMayhem}></Mayhem>
+                    <a href={"#top"}>Powrót</a>
+                    <MedicoPeste displayMedicoPeste={displayMedicoPeste}></MedicoPeste>
                     <a href={"#top"}>Powrót</a>
                     <MercyfulFate displayMercyfulFate={displayMercyfulFate}></MercyfulFate>
                     <a href={"#top"}>Powrót</a>
                     <Mgla displayMgla={displayMgla}></Mgla>
+                    <a href={"#top"}>Powrót</a>
+                    <Motanka displayMotanka={displayMotanka}></Motanka>
                 </div>
 
                 <div id="O" className="row">
@@ -355,7 +381,11 @@ export const MysticFestivalBands = () => {
                     <a href={"#top"}>Powrót</a>
                     <Obituary displayObituary={displayObituary}></Obituary>
                     <a href={"#top"}>Powrót</a>
+                    <Okkultokrati displayOkkultokrati={displayOkkultokrati}></Okkultokrati>
+                    <a href={"#top"}>Powrót</a>
                     <Opeth displayOpeth={displayOpeth}></Opeth>
+                    <a href={"#top"}>Powrót</a>
+                    <OvO displayOvO={displayOvO}></OvO>
                 </div>
 
                 <div id="P" className="row">
@@ -366,12 +396,24 @@ export const MysticFestivalBands = () => {
                     <Proscription displayProscription={displayProscription}></Proscription>
                 </div>
 
+                <div id="R" className="row">
+                    <div className="header_alphabet">
+                        <th>R</th>
+                    </div>
+                    <a href={"#top"}>Powrót</a>
+                    <RagingSpeedhorn displayRagingSpeedhorn={displayRagingSpeedhorn}></RagingSpeedhorn>
+                </div>
+
                 <div id="S" className="row">
                     <div className="header_alphabet">
                         <th>S</th>
                     </div>
                     <a href={"#top"}>Powrót</a>
                     <Saxon displaySaxon={displaySaxon}></Saxon>
+                    <a href={"#top"}>Powrót</a>
+                    <SkeletalRemains displaySkeletalRemains={displaySkeletalRemains}></SkeletalRemains>
+                    <a href={"#top"}>Powrót</a>
+                    <Solstafir displaySolstafir={displaySolstafir}></Solstafir>
                 </div>
 
                 <div id="T" className="row">

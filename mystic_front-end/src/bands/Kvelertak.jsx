@@ -80,7 +80,8 @@ export const Kvelertak = () => {
                     <a href="https://www.youtube.com/watch?v=Eelfbl1ZLrE" target="blank" rel="noreferrer">Kvelertak</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=DbrtS8E0kpY" target="blank" rel="noreferrer">Bruane Brenn</a>
+                    <a href="https://www.youtube.com/watch?v=DbrtS8E0kpY" target="blank" rel="noreferrer">Bruane
+                        Brenn</a>
 
                     <br></br>
                     <br></br>
