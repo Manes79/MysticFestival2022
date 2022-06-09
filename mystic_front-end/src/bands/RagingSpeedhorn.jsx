@@ -80,7 +80,8 @@ export const RagingSpeedhorn = () => {
                        target="blank" rel="noreferrer"> Thumper</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=G4KKQ4E9l4Q" target="blank" rel="noreferrer">The Hate Song (Uncut Version)</a>
+                    <a href="https://www.youtube.com/watch?v=G4KKQ4E9l4Q" target="blank" rel="noreferrer">The Hate Song
+                        (Uncut Version)</a>
 
                     <br></br>
                     <a href="https://www.youtube.com/watch?v=tDjnIgO26XA"

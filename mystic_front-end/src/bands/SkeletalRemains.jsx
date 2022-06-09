@@ -80,7 +80,8 @@ export const SkeletalRemains = () => {
                        target="blank" rel="noreferrer">Seismic Abyss</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=wkUIKljX9ww" target="blank" rel="noreferrer">Congregation of Flesh</a>
+                    <a href="https://www.youtube.com/watch?v=wkUIKljX9ww" target="blank" rel="noreferrer">Congregation
+                        of Flesh</a>
 
                     <br></br>
                     <a href="https://www.youtube.com/watch?v=sR3c7-GT3g0"
