@@ -1,4 +1,4 @@
-package pl.manes.mysticfestival2022.bandlist;
+package pl.manes.mysticfestival2022.bands.thestubs;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,16 +11,15 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 @SpringBootTest
 @AutoConfigureMockMvc
-class MysticBandListControllerTest {
+class TheStubsControllerTest {
 
     @Autowired
     private MockMvc mvc;
 
     @Test
     void shouldCorrectlyReturnStatus200() throws Exception {
-        mvc.perform(MockMvcRequestBuilders.get("/api/v1/mystic_festival/bandlist"))
+        mvc.perform(MockMvcRequestBuilders.get("/api/v1/mystic_festival/thestubs"))
                 .andDo(MockMvcResultHandlers.print())
                 .andExpect(MockMvcResultMatchers.status().is(200));
     }
-
 }
