@@ -57,6 +57,8 @@ import OvO from "../bands/OvO.jsx";
 import RagingSpeedhorn from "../bands/RagingSpeedhorn.jsx";
 import SkeletalRemains from "../bands/SkeletalRemains.jsx";
 import Solstafir from "../bands/Solstafir.jsx";
+import SpectralWound from "../bands/SpectralWound.jsx";
+import Svalbard from "../bands/Svalbard.jsx";
 
 export const MysticFestivalBands = () => {
 
@@ -110,6 +112,8 @@ export const MysticFestivalBands = () => {
     const [displaySaxon] = useState({Saxon: []});
     const [displaySkeletalRemains] = useState({SkeletalRemains: []});
     const [displaySolstafir] = useState({Solstafir: []});
+    const [displaySpectralWound] = useState({SpectralWound: []});
+    const [displaySvalbard] = useState({Svalbard: []});
     const [displayTesterGier] = useState({TesterGier: []});
     const [displayTheMateria] = useState({TheMateria: []});
     const [displayTheRavenAge] = useState({TheRavenAge: []});
@@ -414,6 +418,10 @@ export const MysticFestivalBands = () => {
                     <SkeletalRemains displaySkeletalRemains={displaySkeletalRemains}></SkeletalRemains>
                     <a href={"#top"}>Powrót</a>
                     <Solstafir displaySolstafir={displaySolstafir}></Solstafir>
+                    <a href={"#top"}>Powrót</a>
+                    <SpectralWound displaySpectralWound={displaySpectralWound}></SpectralWound>
+                    <a href={"#top"}>Powrót</a>
+                    <Svalbard displaySvalbard={displaySvalbard}></Svalbard>
                 </div>
 
                 <div id="T" className="row">
