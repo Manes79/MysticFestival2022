@@ -59,6 +59,12 @@ import SkeletalRemains from "../bands/SkeletalRemains.jsx";
 import Solstafir from "../bands/Solstafir.jsx";
 import SpectralWound from "../bands/SpectralWound.jsx";
 import Svalbard from "../bands/Svalbard.jsx";
+import Tribulation from "../bands/Tribulation.jsx";
+import TruchloStrzygi from "../bands/TruchloStrzygi.jsx";
+import Witchcraft from "../bands/Witchcraft.jsx";
+import Irfan from "../bands/Irfan.jsx";
+import Konvent from "../bands/Konvent.jsx";
+import MajorKong from "../bands/MajorKong.jsx";
 
 export const MysticFestivalBands = () => {
 
@@ -90,12 +96,15 @@ export const MysticFestivalBands = () => {
     const [displayIgorrr] = useState({Igorrr: []});
     const [displayImperialTriumphant] = useState({ImperialTriumphant: []});
     const [displayInfectedRain] = useState({InfectedRain: []});
+    const [displayIrfan] = useState({Irfan: []});
     const [displayJudasPriest] = useState({JudasPriest: []});
     const [displayKatatonia] = useState({Katatonia: []});
     const [displayKillingJoke] = useState({KillingJoke: []});
+    const [displayKonvent] = useState({Konvent: []});
     const [displayKvelertak] = useState({Kvelertak: []});
     const [displayLik] = useState({Lik: []});
     const [displayMaggotHeart] = useState({MaggotHeart: []});
+    const [displayMajorKong] = useState({MajorKong: []});
     const [displayMastodon] = useState({Mastodon: []});
     const [displayMayhem] = useState({Mayhem: []});
     const [displayMedicoPeste] = useState({MedicoPeste: []});
@@ -117,9 +126,12 @@ export const MysticFestivalBands = () => {
     const [displayTesterGier] = useState({TesterGier: []});
     const [displayTheMateria] = useState({TheMateria: []});
     const [displayTheRavenAge] = useState({TheRavenAge: []});
+    const [displayTribulation] = useState({Tribulation: []});
     const [displayTriptykon] = useState({Triptykon: []});
+    const [displayTruchloStrzygi] = useState({TruchloStrzygi: []});
     const [displayUrne] = useState({Urne: []});
     const [displayUkraine] = useState({Ukraine: []});
+    const [displayWitchcraft] = useState({Witchcraft: []});
     const [displayWiegedood] = useState({Wiegedood: []});
     const [displayVader] = useState({Vader: []});
 
@@ -326,6 +338,8 @@ export const MysticFestivalBands = () => {
                     <ImperialTriumphant displayImperialTriumphant={displayImperialTriumphant}></ImperialTriumphant>
                     <a href={"#top"}>Powrót</a>
                     <InfectedRain displayInfectedRain={displayInfectedRain}></InfectedRain>
+                    <a href={"#top"}>Powrót</a>
+                    <Irfan displayIrfan={displayIrfan}></Irfan>
                 </div>
 
                 <div id="J" className="row">
@@ -345,6 +359,8 @@ export const MysticFestivalBands = () => {
                     <a href={"#top"}>Powrót</a>
                     <KillingJoke displayKillilngJoke={displayKillingJoke}></KillingJoke>
                     <a href={"#top"}>Powrót</a>
+                    <Konvent displayKonvent={displayKonvent}></Konvent>
+                    <a href={"#top"}>Powrót</a>
                     <Kvelertak displayKvelertak={displayKvelertak}></Kvelertak>
                 </div>
 
@@ -362,6 +378,8 @@ export const MysticFestivalBands = () => {
                     </div>
                     <a href={"#top"}>Powrót</a>
                     <MaggotHeart displayMaggotHeart={displayMaggotHeart}></MaggotHeart>
+                    <a href={"#top"}>Powrót</a>
+                    <MajorKong displayMajorKong={displayMajorKong}></MajorKong>
                     <a href={"#top"}>Powrót</a>
                     <Mastodon displayMastodon={displayMastodon}></Mastodon>
                     <a href={"#top"}>Powrót</a>
@@ -435,7 +453,11 @@ export const MysticFestivalBands = () => {
                     <a href={"#top"}>Powrót</a>
                     <TheRavenAge displayTheRavenAge={displayTheRavenAge}></TheRavenAge>
                     <a href={"#top"}>Powrót</a>
+                    <Tribulation displayTribulation={displayTribulation}></Tribulation>
+                    <a href={"#top"}>Powrót</a>
                     <Triptykon displayTriptykon={displayTriptykon}></Triptykon>
+                    <a href={"#top"}>Powrót</a>
+                    <TruchloStrzygi displayTruchloStrzygi={displayTruchloStrzygi}></TruchloStrzygi>
                 </div>
 
                 <div id="U" className="row">
@@ -452,6 +474,8 @@ export const MysticFestivalBands = () => {
                     <div className="header_alphabet">
                         <th>W</th>
                     </div>
+                    <a href={"#top"}>Powrót</a>
+                    <Witchcraft displayWitchcraft={displayWitchcraft}></Witchcraft>
                     <a href={"#top"}>Powrót</a>
                     <Wiegedood displayWiegedood={displayWiegedood}></Wiegedood>
                 </div>
