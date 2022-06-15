@@ -80,7 +80,8 @@ export const SpectralWound = () => {
                        target="blank" rel="noreferrer"> A Diabolic Thirst</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=1Ff3fHS13FU" target="blank" rel="noreferrer">Frigid And Spellbound</a>
+                    <a href="https://www.youtube.com/watch?v=1Ff3fHS13FU" target="blank" rel="noreferrer">Frigid And
+                        Spellbound</a>
 
                     <br></br>
                     <a href="https://www.youtube.com/watch?v=8UYlP9fIsak"

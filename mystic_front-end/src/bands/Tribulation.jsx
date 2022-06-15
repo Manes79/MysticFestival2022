@@ -77,10 +77,12 @@ export const Tribulation = () => {
                     <a href="https://www.youtube.com/watch?v=fvJQGOFltSk" target="blank" rel="noreferrer">The Lament</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=TNZgqxAxaj4" target="blank" rel="noreferrer">Strange Gateways Beckon</a>
+                    <a href="https://www.youtube.com/watch?v=TNZgqxAxaj4" target="blank" rel="noreferrer">Strange
+                        Gateways Beckon</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=NgyxzCLEP50" target="blank" rel="noreferrer">Melancholia</a>
+                    <a href="https://www.youtube.com/watch?v=NgyxzCLEP50" target="blank"
+                       rel="noreferrer">Melancholia</a>
 
                     <br></br>
                     <br></br>

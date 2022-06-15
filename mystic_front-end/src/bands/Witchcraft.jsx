@@ -80,7 +80,8 @@ export const Witchcraft = () => {
                        target="blank" rel="noreferrer">Witchcraft</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/embed/AbEshyPZOqI" target="blank" rel="noreferrer">No Angel Or Demon</a>
+                    <a href="https://www.youtube.com/embed/AbEshyPZOqI" target="blank" rel="noreferrer">No Angel Or
+                        Demon</a>
 
                     <br></br>
                     <a href="https://www.youtube.com/watch?v=NgBZSKXpphg"

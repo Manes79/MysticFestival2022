@@ -80,7 +80,8 @@ export const MajorKong = () => {
                        target="blank" rel="noreferrer">Acid Transmission</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=JDJeWWpranc" target="blank" rel="noreferrer">Off the Scale</a>
+                    <a href="https://www.youtube.com/watch?v=JDJeWWpranc" target="blank" rel="noreferrer">Off the
+                        Scale</a>
 
                     <br></br>
                     <a href="https://www.youtube.com/watch?v=fGp2xbGqBSA"

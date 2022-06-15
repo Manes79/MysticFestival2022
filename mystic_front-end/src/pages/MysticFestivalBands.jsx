@@ -65,6 +65,9 @@ import Witchcraft from "../bands/Witchcraft.jsx";
 import Irfan from "../bands/Irfan.jsx";
 import Konvent from "../bands/Konvent.jsx";
 import MajorKong from "../bands/MajorKong.jsx";
+import NapalmDeath from "../bands/NapalmDeath.jsx";
+import NeonHaze from "../bands/NeonHaze.jsx";
+import Nightrun from "../bands/Nightrun.jsx";
 
 export const MysticFestivalBands = () => {
 
@@ -111,6 +114,9 @@ export const MysticFestivalBands = () => {
     const [displayMercyfulFate] = useState({MercyfulFate: []});
     const [displayMgla] = useState({Mgla: []});
     const [displayMotanka] = useState({Motanka: []});
+    const [displayNapalmDeath] = useState({NapalmDeath: []});
+    const [displayNeonHaze] = useState({NeonHaze: []});
+    const [displayNightrun] = useState({Nightrun: []});
     const [displayO] = useState({O: []});
     const [displayObituary] = useState({Obituary: []});
     const [displayOkkultokrati] = useState({Okkultokrati: []});
@@ -392,6 +398,18 @@ export const MysticFestivalBands = () => {
                     <Mgla displayMgla={displayMgla}></Mgla>
                     <a href={"#top"}>Powrót</a>
                     <Motanka displayMotanka={displayMotanka}></Motanka>
+                </div>
+
+                <div id="N" className="row">
+                    <div className="header_alphabet">
+                        <th>N</th>
+                    </div>
+                    <a href={"#top"}>Powrót</a>
+                    <NapalmDeath displayNapalmDeath={displayNapalmDeath}></NapalmDeath>
+                    <a href={"#top"}>Powrót</a>
+                    <NeonHaze displayNeonHaze={displayNeonHaze}></NeonHaze>
+                    <a href={"#top"}>Powrót</a>
+                    <Nightrun displayNightrun={displayNightrun}></Nightrun>
                 </div>
 
                 <div id="O" className="row">

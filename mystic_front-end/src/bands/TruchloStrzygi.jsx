@@ -80,7 +80,8 @@ export const TruchloStrzygi = () => {
                        target="blank" rel="noreferrer">Jasna Pustka</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=PVaDVD0DuUM" target="blank" rel="noreferrer">Tu Gdzie Czarna Zorza Płonie</a>
+                    <a href="https://www.youtube.com/watch?v=PVaDVD0DuUM" target="blank" rel="noreferrer">Tu Gdzie
+                        Czarna Zorza Płonie</a>
 
                     <br></br>
                     <a href="https://www.youtube.com/watch?v=HttL2j-q0D8"

@@ -80,7 +80,8 @@ export const Svalbard = () => {
                        target="blank" rel="noreferrer">The Northernmost Town on Earth</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=9En0OjaQ_TQ" target="blank" rel="noreferrer"> Listen To Someone</a>
+                    <a href="https://www.youtube.com/watch?v=9En0OjaQ_TQ" target="blank" rel="noreferrer"> Listen To
+                        Someone</a>
 
                     <br></br>
                     <a href="https://www.youtube.com/watch?v=hrZeTRR27qI"

@@ -80,7 +80,8 @@ export const Konvent = () => {
                        target="blank" rel="noreferrer">Puritan Masochism</a>
 
                     <br></br>
-                    <a href="https://www.youtube.com/watch?v=wBkwHWoKQKA" target="blank" rel="noreferrer">Ropes Pt. II </a>
+                    <a href="https://www.youtube.com/watch?v=wBkwHWoKQKA" target="blank" rel="noreferrer">Ropes Pt.
+                        II </a>
 
                     <br></br>
                     <a href="https://www.youtube.com/watch?v=cH0LodMdtwo"

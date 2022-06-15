@@ -24,6 +24,7 @@ export const MysticFestivalNews = () => {
     const [newsNumeration20AppState, newsNumeration20SetAppState] = useState({news20: []})
     const [newsNumeration21AppState, newsNumeration21SetAppState] = useState({news21: []})
     const [newsNumeration22AppState, newsNumeration22SetAppState] = useState({news22: []})
+    const [newsNumeration23AppState, newsNumeration23SetAppState] = useState({news23: []})
 
     useEffect(() => {
         const url = "http://localhost:8080/api/v1/mystic_festival/news";
@@ -52,6 +53,7 @@ export const MysticFestivalNews = () => {
                 newsNumeration20SetAppState({news20: response})
                 newsNumeration21SetAppState({news21: response})
                 newsNumeration22SetAppState({news22: response})
+                newsNumeration23SetAppState({news23: response})
             });
     }, []);
 
@@ -63,6 +65,51 @@ export const MysticFestivalNews = () => {
             <br></br>
 
             <ul>
+                {newsNumeration23AppState.news23.map((notices, index) => {
+                    return (
+                        <tr key={index}>{notices.news23}</tr>
+                    )
+                })
+                }
+                <br></br>
+
+                <div className="youtube-video-container">
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/ojsahezffFk" title="Day One"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
+                </div>
+
+                <br></br>
+                <div className="youtube-video-container">
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/5eVIRzUjIwQ" title="Day Two"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
+                </div>
+
+                <br></br>
+                <div className="youtube-video-container">
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/AF3km8MpqlM" title="Day Three"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
+                </div>
+
+                <br></br>
+                <br></br>
                 {newsNumeration22AppState.news22.map((notices, index) => {
                     return (
                         <tr key={index}>{notices.news22}</tr>
