@@ -68,6 +68,16 @@ import MajorKong from "../bands/MajorKong.jsx";
 import NapalmDeath from "../bands/NapalmDeath.jsx";
 import NeonHaze from "../bands/NeonHaze.jsx";
 import Nightrun from "../bands/Nightrun.jsx";
+import OnlySons from "../bands/OnlySons.jsx";
+import RedScalp from "../bands/RedScalp.jsx";
+import StayNowhere from "../bands/StayNowhere.jsx";
+import Rosk from "../bands/Rosk.jsx";
+import Spaceslug from "../bands/Spaceslug.jsx";
+import Mortis from "../bands/Mortis.jsx";
+import Taraban from "../bands/Taraban.jsx";
+import ThePicturebooks from "../bands/ThePicturebooks.jsx";
+import TheStubs from "../bands/TheStubs.jsx";
+import TheVintageCaravan from "../bands/TheVintageCaravan.jsx";
 
 export const MysticFestivalBands = () => {
 
@@ -113,6 +123,7 @@ export const MysticFestivalBands = () => {
     const [displayMedicoPeste] = useState({MedicoPeste: []});
     const [displayMercyfulFate] = useState({MercyfulFate: []});
     const [displayMgla] = useState({Mgla: []});
+    const [displayMortis] = useState({Mortis: []});
     const [displayMotanka] = useState({Motanka: []});
     const [displayNapalmDeath] = useState({NapalmDeath: []});
     const [displayNeonHaze] = useState({NeonHaze: []});
@@ -120,18 +131,27 @@ export const MysticFestivalBands = () => {
     const [displayO] = useState({O: []});
     const [displayObituary] = useState({Obituary: []});
     const [displayOkkultokrati] = useState({Okkultokrati: []});
+    const [displayOnlySons] = useState({OnlySons: []});
     const [displayOpeth] = useState({Opeth: []});
     const [displayOvO] = useState({OvO: []});
     const [displayProscription] = useState({Proscription: []});
     const [displayRagingSpeedhorn] = useState({RagingSpeedhorn: []});
+    const [displayRedScalp] = useState({RedScalp: []});
+    const [displayROSK] = useState({Rosk: []});
     const [displaySaxon] = useState({Saxon: []});
     const [displaySkeletalRemains] = useState({SkeletalRemains: []});
     const [displaySolstafir] = useState({Solstafir: []});
+    const [displaySpaceslug] = useState({Spaceslug: []});
     const [displaySpectralWound] = useState({SpectralWound: []});
+    const [displayStayNowhere] = useState({StayNowhere: []});
     const [displaySvalbard] = useState({Svalbard: []});
+    const [displayTaraban] = useState({Taraban: []});
     const [displayTesterGier] = useState({TesterGier: []});
     const [displayTheMateria] = useState({TheMateria: []});
+    const [displayThePicturebooks] = useState({ThePicturebooks: []});
     const [displayTheRavenAge] = useState({TheRavenAge: []});
+    const [displayTheStubs] = useState({TheStubs: []});
+    const [displayTheVintageCaravan] = useState({TheVintageCaravan: []});
     const [displayTribulation] = useState({Tribulation: []});
     const [displayTriptykon] = useState({Triptykon: []});
     const [displayTruchloStrzygi] = useState({TruchloStrzygi: []});
@@ -164,10 +184,6 @@ export const MysticFestivalBands = () => {
                 </a>
                 <a href={"#D"} className="header_alphabet_links">
                     <th>D</th>
-                    <th></th>
-                </a>
-                <a href={"#E"} className="header_alphabet_links">
-                    <th>E</th>
                     <th></th>
                 </a>
                 <a href={"#F"} className="header_alphabet_links">
@@ -397,6 +413,8 @@ export const MysticFestivalBands = () => {
                     <a href={"#top"}>Powrót</a>
                     <Mgla displayMgla={displayMgla}></Mgla>
                     <a href={"#top"}>Powrót</a>
+                    <Mortis displayMortis={displayMortis}></Mortis>
+                    <a href={"#top"}>Powrót</a>
                     <Motanka displayMotanka={displayMotanka}></Motanka>
                 </div>
 
@@ -423,6 +441,8 @@ export const MysticFestivalBands = () => {
                     <a href={"#top"}>Powrót</a>
                     <Okkultokrati displayOkkultokrati={displayOkkultokrati}></Okkultokrati>
                     <a href={"#top"}>Powrót</a>
+                    <OnlySons displayOnlySons={displayOnlySons}></OnlySons>
+                    <a href={"#top"}>Powrót</a>
                     <Opeth displayOpeth={displayOpeth}></Opeth>
                     <a href={"#top"}>Powrót</a>
                     <OvO displayOvO={displayOvO}></OvO>
@@ -442,6 +462,10 @@ export const MysticFestivalBands = () => {
                     </div>
                     <a href={"#top"}>Powrót</a>
                     <RagingSpeedhorn displayRagingSpeedhorn={displayRagingSpeedhorn}></RagingSpeedhorn>
+                    <a href={"#top"}>Powrót</a>
+                    <RedScalp displayRedScalp={displayRedScalp}></RedScalp>
+                    <a href={"#top"}>Powrót</a>
+                    <Rosk displayROSK={displayROSK}></Rosk>
                 </div>
 
                 <div id="S" className="row">
@@ -455,7 +479,11 @@ export const MysticFestivalBands = () => {
                     <a href={"#top"}>Powrót</a>
                     <Solstafir displaySolstafir={displaySolstafir}></Solstafir>
                     <a href={"#top"}>Powrót</a>
+                    <Spaceslug displaySpaceslug={displaySpaceslug}></Spaceslug>
+                    <a href={"#top"}>Powrót</a>
                     <SpectralWound displaySpectralWound={displaySpectralWound}></SpectralWound>
+                    <a href={"#top"}>Powrót</a>
+                    <StayNowhere displayStayNowhere={displayStayNowhere}></StayNowhere>
                     <a href={"#top"}>Powrót</a>
                     <Svalbard displaySvalbard={displaySvalbard}></Svalbard>
                 </div>
@@ -465,11 +493,19 @@ export const MysticFestivalBands = () => {
                         <th>T</th>
                     </div>
                     <a href={"#top"}>Powrót</a>
+                    <Taraban displayTaraban={displayTaraban}></Taraban>
+                    <a href={"#top"}>Powrót</a>
                     <TesterGier displayTesterGier={displayTesterGier}></TesterGier>
                     <a href={"#top"}>Powrót</a>
                     <TheMateria displayTheMateria={displayTheMateria}></TheMateria>
                     <a href={"#top"}>Powrót</a>
+                    <ThePicturebooks displayThePicturebooks={displayThePicturebooks}></ThePicturebooks>
+                    <a href={"#top"}>Powrót</a>
                     <TheRavenAge displayTheRavenAge={displayTheRavenAge}></TheRavenAge>
+                    <a href={"#top"}>Powrót</a>
+                    <TheStubs displayTheStubs={displayTheStubs}></TheStubs>
+                    <a href={"#top"}>Powrót</a>
+                    <TheVintageCaravan displayTheVintageCaravan={displayTheVintageCaravan}></TheVintageCaravan>
                     <a href={"#top"}>Powrót</a>
                     <Tribulation displayTribulation={displayTribulation}></Tribulation>
                     <a href={"#top"}>Powrót</a>
