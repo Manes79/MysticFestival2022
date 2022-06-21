@@ -37,7 +37,7 @@ nice watching
 
 Polish
 
-aplikacja/strona internetowa ppoświęcona dużemu wydarzeniu muzycznemu odbywającemu się w Polsce, na terenie miasta Gdańsk, a mianowicie festiwalowi muzycznemu 
+aplikacja/strona internetowa poświęcona dużemu wydarzeniu muzycznemu odbywającemu się w Polsce, na terenie miasta Gdańsk, a mianowicie festiwalowi muzycznemu 
 Mystic Festival!
 
 Na stronie możesz zapoznać się z aktualnościami dotyczączymi festiwalu, zobaczysz wszystkie zespoły występujące na tym evencie, zapoznasz się z historią tychże 
