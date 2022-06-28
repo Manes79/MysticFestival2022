@@ -8,6 +8,7 @@ export const MysticFestivalBandList = () => {
     const [bandStageAppState, bandStageSetAppState] = useState({bandStage: []})
     const [bandPerformanceDateAppState, bandPerformanceDateSetAppState] = useState({bandPerformanceDate: []})
 
+
     useEffect(() => {
         const url = "http://localhost:8080/api/v1/mystic_festival/bandlist";
         fetch(url)
@@ -24,6 +25,7 @@ export const MysticFestivalBandList = () => {
 
         <div className="body">
 
+            <br></br>
             <th>Mystic Festival 2022 Band List</th>
 
             <br></br>
