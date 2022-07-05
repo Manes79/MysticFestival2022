@@ -25,6 +25,7 @@ Launching the application/website:
   - PostgreSQL database required
   - opening this repo in your favorite IDE
   - connecting to the database (user and password in the application.properties file in the resources directory)
+  - import into the database the file from /resources 'mystic_festival_localhost-2022_07_01_22_10_17-dump'
   - run your command line (e.g., GitBash) in the mystic_front-end folder
   - invoking in the command line (e.g. in GitBash) the command ---> npm start
   - enjoying the view of the page on the local React host :3000 :)
@@ -61,6 +62,7 @@ Uruchomienie aplikacji/strony:
   - wymagana zainstalowa baza danych PostgreSQL
   - otworzenie tegoż repo w swoim ulubionym IDE
   - podłączenie się do bazy danych (user i hasło w pliku application.properties w katalogu resources)
+  - import do bazy danych pliku z /resources 'mystic_festival_localhost-2022_07_01_22_10_17-dump'
   - uruchomienie w folderze mystic_front-end swojego wiersza poleceń (np. GitBash)
   - wywołanie w wierszu poleceń (np. w GitBash) komendy ---> npm start
   - cieszenie się widokiem strony na localnym hoscie Reacta tj:3000 :)
