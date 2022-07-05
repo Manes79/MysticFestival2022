@@ -24,756 +24,845 @@ SET default_table_access_method = heap;
 -- Name: alien_weaponry; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.alien_weaponry (
-    id uuid NOT NULL,
+CREATE TABLE public.alien_weaponry
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.alien_weaponry OWNER TO postgres;
+ALTER TABLE public.alien_weaponry
+    OWNER TO postgres;
 
 --
 -- Name: arabrot; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.arabrot (
-    id uuid NOT NULL,
+CREATE TABLE public.arabrot
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.arabrot OWNER TO postgres;
+ALTER TABLE public.arabrot
+    OWNER TO postgres;
 
 --
 -- Name: azarath; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.azarath (
-    id uuid NOT NULL,
+CREATE TABLE public.azarath
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.azarath OWNER TO postgres;
+ALTER TABLE public.azarath
+    OWNER TO postgres;
 
 --
 -- Name: baest; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.baest (
-    id uuid NOT NULL,
+CREATE TABLE public.baest
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.baest OWNER TO postgres;
+ALTER TABLE public.baest
+    OWNER TO postgres;
 
 --
 -- Name: baroness; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.baroness (
-    id uuid NOT NULL,
+CREATE TABLE public.baroness
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.baroness OWNER TO postgres;
+ALTER TABLE public.baroness
+    OWNER TO postgres;
 
 --
 -- Name: bleed_from_within; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.bleed_from_within (
-    id uuid NOT NULL,
+CREATE TABLE public.bleed_from_within
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.bleed_from_within OWNER TO postgres;
+ALTER TABLE public.bleed_from_within
+    OWNER TO postgres;
 
 --
 -- Name: carcass; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.carcass (
-    id uuid NOT NULL,
+CREATE TABLE public.carcass
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.carcass OWNER TO postgres;
+ALTER TABLE public.carcass
+    OWNER TO postgres;
 
 --
 -- Name: celtic_frost; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.celtic_frost (
-    id uuid NOT NULL,
+CREATE TABLE public.celtic_frost
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.celtic_frost OWNER TO postgres;
+ALTER TABLE public.celtic_frost
+    OWNER TO postgres;
 
 --
 -- Name: code_orange; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.code_orange (
-    id uuid NOT NULL,
+CREATE TABLE public.code_orange
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.code_orange OWNER TO postgres;
+ALTER TABLE public.code_orange
+    OWNER TO postgres;
 
 --
 -- Name: czern; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.czern (
-    id uuid NOT NULL,
+CREATE TABLE public.czern
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.czern OWNER TO postgres;
+ALTER TABLE public.czern
+    OWNER TO postgres;
 
 --
 -- Name: dead_lord; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.dead_lord (
-    id uuid NOT NULL,
+CREATE TABLE public.dead_lord
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.dead_lord OWNER TO postgres;
+ALTER TABLE public.dead_lord
+    OWNER TO postgres;
 
 --
 -- Name: decapitated; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.decapitated (
-    id uuid NOT NULL,
+CREATE TABLE public.decapitated
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.decapitated OWNER TO postgres;
+ALTER TABLE public.decapitated
+    OWNER TO postgres;
 
 --
 -- Name: deluge; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.deluge (
-    id uuid NOT NULL,
+CREATE TABLE public.deluge
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.deluge OWNER TO postgres;
+ALTER TABLE public.deluge
+    OWNER TO postgres;
 
 --
 -- Name: dolch; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.dolch (
-    id uuid NOT NULL,
+CREATE TABLE public.dolch
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.dolch OWNER TO postgres;
+ALTER TABLE public.dolch
+    OWNER TO postgres;
 
 --
 -- Name: dopelord; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.dopelord (
-    id uuid NOT NULL,
+CREATE TABLE public.dopelord
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.dopelord OWNER TO postgres;
+ALTER TABLE public.dopelord
+    OWNER TO postgres;
 
 --
 -- Name: dwaal; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.dwaal (
-    id uuid NOT NULL,
+CREATE TABLE public.dwaal
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.dwaal OWNER TO postgres;
+ALTER TABLE public.dwaal
+    OWNER TO postgres;
 
 --
 -- Name: favorit89; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.favorit89 (
-    id uuid NOT NULL,
+CREATE TABLE public.favorit89
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.favorit89 OWNER TO postgres;
+ALTER TABLE public.favorit89
+    OWNER TO postgres;
 
 --
 -- Name: fleshworld; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.fleshworld (
-    id uuid NOT NULL,
+CREATE TABLE public.fleshworld
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.fleshworld OWNER TO postgres;
+ALTER TABLE public.fleshworld
+    OWNER TO postgres;
 
 --
 -- Name: gaerea; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.gaerea (
-    id uuid NOT NULL,
+CREATE TABLE public.gaerea
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.gaerea OWNER TO postgres;
+ALTER TABLE public.gaerea
+    OWNER TO postgres;
 
 --
 -- Name: gold; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.gold (
-    id uuid NOT NULL,
+CREATE TABLE public.gold
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.gold OWNER TO postgres;
+ALTER TABLE public.gold
+    OWNER TO postgres;
 
 --
 -- Name: green_lung; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.green_lung (
-    id uuid NOT NULL,
+CREATE TABLE public.green_lung
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.green_lung OWNER TO postgres;
+ALTER TABLE public.green_lung
+    OWNER TO postgres;
 
 --
 -- Name: hangmans_chair; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.hangmans_chair (
-    id uuid NOT NULL,
+CREATE TABLE public.hangmans_chair
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.hangmans_chair OWNER TO postgres;
+ALTER TABLE public.hangmans_chair
+    OWNER TO postgres;
 
 --
 -- Name: heathen; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.heathen (
-    id uuid NOT NULL,
+CREATE TABLE public.heathen
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.heathen OWNER TO postgres;
+ALTER TABLE public.heathen
+    OWNER TO postgres;
 
 --
 -- Name: heilung; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.heilung (
-    id uuid NOT NULL,
+CREATE TABLE public.heilung
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.heilung OWNER TO postgres;
+ALTER TABLE public.heilung
+    OWNER TO postgres;
 
 --
 -- Name: hellhammer; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.hellhammer (
-    id uuid NOT NULL,
+CREATE TABLE public.hellhammer
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.hellhammer OWNER TO postgres;
+ALTER TABLE public.hellhammer
+    OWNER TO postgres;
 
 --
 -- Name: igorrr; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.igorrr (
-    id uuid NOT NULL,
+CREATE TABLE public.igorrr
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.igorrr OWNER TO postgres;
+ALTER TABLE public.igorrr
+    OWNER TO postgres;
 
 --
 -- Name: imperial_triumphant; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.imperial_triumphant (
-    id uuid NOT NULL,
+CREATE TABLE public.imperial_triumphant
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.imperial_triumphant OWNER TO postgres;
+ALTER TABLE public.imperial_triumphant
+    OWNER TO postgres;
 
 --
 -- Name: infected_rain; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.infected_rain (
-    id uuid NOT NULL,
+CREATE TABLE public.infected_rain
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.infected_rain OWNER TO postgres;
+ALTER TABLE public.infected_rain
+    OWNER TO postgres;
 
 --
 -- Name: irfan; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.irfan (
-    id uuid NOT NULL,
+CREATE TABLE public.irfan
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.irfan OWNER TO postgres;
+ALTER TABLE public.irfan
+    OWNER TO postgres;
 
 --
 -- Name: judas_priest; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.judas_priest (
-    id uuid NOT NULL,
+CREATE TABLE public.judas_priest
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.judas_priest OWNER TO postgres;
+ALTER TABLE public.judas_priest
+    OWNER TO postgres;
 
 --
 -- Name: katatonia; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.katatonia (
-    id uuid NOT NULL,
+CREATE TABLE public.katatonia
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.katatonia OWNER TO postgres;
+ALTER TABLE public.katatonia
+    OWNER TO postgres;
 
 --
 -- Name: killing_joke; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.killing_joke (
-    id uuid NOT NULL,
+CREATE TABLE public.killing_joke
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.killing_joke OWNER TO postgres;
+ALTER TABLE public.killing_joke
+    OWNER TO postgres;
 
 --
 -- Name: konvent; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.konvent (
-    id uuid NOT NULL,
+CREATE TABLE public.konvent
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.konvent OWNER TO postgres;
+ALTER TABLE public.konvent
+    OWNER TO postgres;
 
 --
 -- Name: kvelertak; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.kvelertak (
-    id uuid NOT NULL,
+CREATE TABLE public.kvelertak
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.kvelertak OWNER TO postgres;
+ALTER TABLE public.kvelertak
+    OWNER TO postgres;
 
 --
 -- Name: lik; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.lik (
-    id uuid NOT NULL,
+CREATE TABLE public.lik
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.lik OWNER TO postgres;
+ALTER TABLE public.lik
+    OWNER TO postgres;
 
 --
 -- Name: maggot_heart; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.maggot_heart (
-    id uuid NOT NULL,
+CREATE TABLE public.maggot_heart
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.maggot_heart OWNER TO postgres;
+ALTER TABLE public.maggot_heart
+    OWNER TO postgres;
 
 --
 -- Name: major_kong; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.major_kong (
-    id uuid NOT NULL,
+CREATE TABLE public.major_kong
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.major_kong OWNER TO postgres;
+ALTER TABLE public.major_kong
+    OWNER TO postgres;
 
 --
 -- Name: mastodon; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.mastodon (
-    id uuid NOT NULL,
+CREATE TABLE public.mastodon
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.mastodon OWNER TO postgres;
+ALTER TABLE public.mastodon
+    OWNER TO postgres;
 
 --
 -- Name: mayhem; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.mayhem (
-    id uuid NOT NULL,
+CREATE TABLE public.mayhem
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.mayhem OWNER TO postgres;
+ALTER TABLE public.mayhem
+    OWNER TO postgres;
 
 --
 -- Name: medico_peste; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.medico_peste (
-    id uuid NOT NULL,
+CREATE TABLE public.medico_peste
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.medico_peste OWNER TO postgres;
+ALTER TABLE public.medico_peste
+    OWNER TO postgres;
 
 --
 -- Name: mercyful_fate; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.mercyful_fate (
-    id uuid NOT NULL,
+CREATE TABLE public.mercyful_fate
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.mercyful_fate OWNER TO postgres;
+ALTER TABLE public.mercyful_fate
+    OWNER TO postgres;
 
 --
 -- Name: mgla; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.mgla (
-    id uuid NOT NULL,
+CREATE TABLE public.mgla
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.mgla OWNER TO postgres;
+ALTER TABLE public.mgla
+    OWNER TO postgres;
 
 --
 -- Name: mortis; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.mortis (
-    id uuid NOT NULL,
+CREATE TABLE public.mortis
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.mortis OWNER TO postgres;
+ALTER TABLE public.mortis
+    OWNER TO postgres;
 
 --
 -- Name: motanka; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.motanka (
-    id uuid NOT NULL,
+CREATE TABLE public.motanka
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.motanka OWNER TO postgres;
+ALTER TABLE public.motanka
+    OWNER TO postgres;
 
 --
 -- Name: mystic_accommodation; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.mystic_accommodation (
-    id uuid NOT NULL,
+CREATE TABLE public.mystic_accommodation
+(
+    id             uuid NOT NULL,
     accommodation1 text,
     accommodation2 text,
     accommodation3 text,
@@ -782,74 +871,84 @@ CREATE TABLE public.mystic_accommodation (
 );
 
 
-ALTER TABLE public.mystic_accommodation OWNER TO postgres;
+ALTER TABLE public.mystic_accommodation
+    OWNER TO postgres;
 
 --
 -- Name: mystic_band_description; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.mystic_band_description (
-    id uuid NOT NULL,
+CREATE TABLE public.mystic_band_description
+(
+    id               uuid NOT NULL,
     band_description character varying(255),
     band_discography character varying(255),
-    band_genre character varying(255),
-    band_members character varying(255),
-    band_name character varying(255),
-    band_site character varying(255)
+    band_genre       character varying(255),
+    band_members     character varying(255),
+    band_name        character varying(255),
+    band_site        character varying(255)
 );
 
 
-ALTER TABLE public.mystic_band_description OWNER TO postgres;
+ALTER TABLE public.mystic_band_description
+    OWNER TO postgres;
 
 --
 -- Name: mystic_band_list; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.mystic_band_list (
-    id uuid NOT NULL,
-    band_genre text,
-    band_name text,
+CREATE TABLE public.mystic_band_list
+(
+    id                    uuid NOT NULL,
+    band_genre            text,
+    band_name             text,
     band_performance_date text,
-    band_stage text
+    band_stage            text
 );
 
 
-ALTER TABLE public.mystic_band_list OWNER TO postgres;
+ALTER TABLE public.mystic_band_list
+    OWNER TO postgres;
 
 --
 -- Name: mystic_explore_location; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.mystic_explore_location (
-    id uuid NOT NULL,
-    explore_area text,
+CREATE TABLE public.mystic_explore_location
+(
+    id             uuid NOT NULL,
+    explore_area   text,
     explore_gdansk text
 );
 
 
-ALTER TABLE public.mystic_explore_location OWNER TO postgres;
+ALTER TABLE public.mystic_explore_location
+    OWNER TO postgres;
 
 --
 -- Name: mystic_location; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.mystic_location (
-    id uuid NOT NULL,
+CREATE TABLE public.mystic_location
+(
+    id                  uuid NOT NULL,
     electricians_street text,
-    gdansk_shipyard text,
-    post_shipyard text
+    gdansk_shipyard     text,
+    post_shipyard       text
 );
 
 
-ALTER TABLE public.mystic_location OWNER TO postgres;
+ALTER TABLE public.mystic_location
+    OWNER TO postgres;
 
 --
 -- Name: mystic_news_numeration; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.mystic_news_numeration (
-    id uuid NOT NULL,
-    news1 text,
+CREATE TABLE public.mystic_news_numeration
+(
+    id     uuid NOT NULL,
+    news1  text,
     news10 text,
     news11 text,
     news12 text,
@@ -860,7 +959,7 @@ CREATE TABLE public.mystic_news_numeration (
     news17 text,
     news18 text,
     news19 text,
-    news2 text,
+    news2  text,
     news20 text,
     news21 text,
     news22 text,
@@ -871,65 +970,71 @@ CREATE TABLE public.mystic_news_numeration (
     news27 text,
     news28 text,
     news29 text,
-    news3 text,
+    news3  text,
     news30 text,
-    news4 text,
-    news5 text,
-    news6 text,
-    news7 text,
-    news8 text,
-    news9 text
+    news4  text,
+    news5  text,
+    news6  text,
+    news7  text,
+    news8  text,
+    news9  text
 );
 
 
-ALTER TABLE public.mystic_news_numeration OWNER TO postgres;
+ALTER TABLE public.mystic_news_numeration
+    OWNER TO postgres;
 
 --
 -- Name: mystic_open_air_numeration; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.mystic_open_air_numeration (
-    id uuid NOT NULL,
-    open_air_news1 text,
+CREATE TABLE public.mystic_open_air_numeration
+(
+    id              uuid NOT NULL,
+    open_air_news1  text,
     open_air_news10 text,
-    open_air_news2 text,
-    open_air_news3 text,
-    open_air_news4 text,
-    open_air_news5 text,
-    open_air_news6 text,
-    open_air_news7 text,
-    open_air_news8 text,
-    open_air_news9 text
+    open_air_news2  text,
+    open_air_news3  text,
+    open_air_news4  text,
+    open_air_news5  text,
+    open_air_news6  text,
+    open_air_news7  text,
+    open_air_news8  text,
+    open_air_news9  text
 );
 
 
-ALTER TABLE public.mystic_open_air_numeration OWNER TO postgres;
+ALTER TABLE public.mystic_open_air_numeration
+    OWNER TO postgres;
 
 --
 -- Name: mystic_tickets; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.mystic_tickets (
-    id uuid NOT NULL,
+CREATE TABLE public.mystic_tickets
+(
+    id                           uuid NOT NULL,
     get_one_day_ticket_three_day text,
-    info_tickets text,
-    one_day_ticket_one_day text,
-    one_day_ticket_two_day text,
-    standard_tickets text,
-    upgrade_one_day_ticket text,
-    vip_tickets text
+    info_tickets                 text,
+    one_day_ticket_one_day       text,
+    one_day_ticket_two_day       text,
+    standard_tickets             text,
+    upgrade_one_day_ticket       text,
+    vip_tickets                  text
 );
 
 
-ALTER TABLE public.mystic_tickets OWNER TO postgres;
+ALTER TABLE public.mystic_tickets
+    OWNER TO postgres;
 
 --
 -- Name: mystic_warm_up_days_numeration; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.mystic_warm_up_days_numeration (
-    id uuid NOT NULL,
-    warm_up_day_numeration text,
+CREATE TABLE public.mystic_warm_up_days_numeration
+(
+    id                      uuid NOT NULL,
+    warm_up_day_numeration  text,
     warm_up_day_numeration2 text,
     warm_up_day_numeration3 text,
     warm_up_day_numeration4 text,
@@ -937,602 +1042,673 @@ CREATE TABLE public.mystic_warm_up_days_numeration (
 );
 
 
-ALTER TABLE public.mystic_warm_up_days_numeration OWNER TO postgres;
+ALTER TABLE public.mystic_warm_up_days_numeration
+    OWNER TO postgres;
 
 --
 -- Name: napalm_death; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.napalm_death (
-    id uuid NOT NULL,
+CREATE TABLE public.napalm_death
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.napalm_death OWNER TO postgres;
+ALTER TABLE public.napalm_death
+    OWNER TO postgres;
 
 --
 -- Name: neon_haze; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.neon_haze (
-    id uuid NOT NULL,
+CREATE TABLE public.neon_haze
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.neon_haze OWNER TO postgres;
+ALTER TABLE public.neon_haze
+    OWNER TO postgres;
 
 --
 -- Name: nightrun; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.nightrun (
-    id uuid NOT NULL,
+CREATE TABLE public.nightrun
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.nightrun OWNER TO postgres;
+ALTER TABLE public.nightrun
+    OWNER TO postgres;
 
 --
 -- Name: o; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.o (
-    id uuid NOT NULL,
+CREATE TABLE public.o
+(
+    id          uuid NOT NULL,
     discography character varying(255),
-    genre character varying(255),
-    history character varying(255),
-    members character varying(255),
-    name character varying(255),
-    site character varying(255)
+    genre       character varying(255),
+    history     character varying(255),
+    members     character varying(255),
+    name        character varying(255),
+    site        character varying(255)
 );
 
 
-ALTER TABLE public.o OWNER TO postgres;
+ALTER TABLE public.o
+    OWNER TO postgres;
 
 --
 -- Name: obituary; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.obituary (
-    id uuid NOT NULL,
+CREATE TABLE public.obituary
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.obituary OWNER TO postgres;
+ALTER TABLE public.obituary
+    OWNER TO postgres;
 
 --
 -- Name: okkultokrati; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.okkultokrati (
-    id uuid NOT NULL,
+CREATE TABLE public.okkultokrati
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.okkultokrati OWNER TO postgres;
+ALTER TABLE public.okkultokrati
+    OWNER TO postgres;
 
 --
 -- Name: only_sons; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.only_sons (
-    id uuid NOT NULL,
+CREATE TABLE public.only_sons
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.only_sons OWNER TO postgres;
+ALTER TABLE public.only_sons
+    OWNER TO postgres;
 
 --
 -- Name: opeth; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.opeth (
-    id uuid NOT NULL,
+CREATE TABLE public.opeth
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.opeth OWNER TO postgres;
+ALTER TABLE public.opeth
+    OWNER TO postgres;
 
 --
 -- Name: ovo; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.ovo (
-    id uuid NOT NULL,
+CREATE TABLE public.ovo
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.ovo OWNER TO postgres;
+ALTER TABLE public.ovo
+    OWNER TO postgres;
 
 --
 -- Name: proscription; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.proscription (
-    id uuid NOT NULL,
+CREATE TABLE public.proscription
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.proscription OWNER TO postgres;
+ALTER TABLE public.proscription
+    OWNER TO postgres;
 
 --
 -- Name: raging_speedhorn; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.raging_speedhorn (
-    id uuid NOT NULL,
+CREATE TABLE public.raging_speedhorn
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.raging_speedhorn OWNER TO postgres;
+ALTER TABLE public.raging_speedhorn
+    OWNER TO postgres;
 
 --
 -- Name: red_scalp; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.red_scalp (
-    id uuid NOT NULL,
+CREATE TABLE public.red_scalp
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.red_scalp OWNER TO postgres;
+ALTER TABLE public.red_scalp
+    OWNER TO postgres;
 
 --
 -- Name: rosk; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.rosk (
-    id uuid NOT NULL,
+CREATE TABLE public.rosk
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.rosk OWNER TO postgres;
+ALTER TABLE public.rosk
+    OWNER TO postgres;
 
 --
 -- Name: saxon; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.saxon (
-    id uuid NOT NULL,
+CREATE TABLE public.saxon
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.saxon OWNER TO postgres;
+ALTER TABLE public.saxon
+    OWNER TO postgres;
 
 --
 -- Name: skeletal_remains; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.skeletal_remains (
-    id uuid NOT NULL,
+CREATE TABLE public.skeletal_remains
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.skeletal_remains OWNER TO postgres;
+ALTER TABLE public.skeletal_remains
+    OWNER TO postgres;
 
 --
 -- Name: solstafir; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.solstafir (
-    id uuid NOT NULL,
+CREATE TABLE public.solstafir
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.solstafir OWNER TO postgres;
+ALTER TABLE public.solstafir
+    OWNER TO postgres;
 
 --
 -- Name: spaceslug; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.spaceslug (
-    id uuid NOT NULL,
+CREATE TABLE public.spaceslug
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.spaceslug OWNER TO postgres;
+ALTER TABLE public.spaceslug
+    OWNER TO postgres;
 
 --
 -- Name: spectral_wound; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.spectral_wound (
-    id uuid NOT NULL,
+CREATE TABLE public.spectral_wound
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.spectral_wound OWNER TO postgres;
+ALTER TABLE public.spectral_wound
+    OWNER TO postgres;
 
 --
 -- Name: stay_nowhere; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.stay_nowhere (
-    id uuid NOT NULL,
+CREATE TABLE public.stay_nowhere
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.stay_nowhere OWNER TO postgres;
+ALTER TABLE public.stay_nowhere
+    OWNER TO postgres;
 
 --
 -- Name: svalbard; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.svalbard (
-    id uuid NOT NULL,
+CREATE TABLE public.svalbard
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.svalbard OWNER TO postgres;
+ALTER TABLE public.svalbard
+    OWNER TO postgres;
 
 --
 -- Name: taraban; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.taraban (
-    id uuid NOT NULL,
+CREATE TABLE public.taraban
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.taraban OWNER TO postgres;
+ALTER TABLE public.taraban
+    OWNER TO postgres;
 
 --
 -- Name: tester_gier; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.tester_gier (
-    id uuid NOT NULL,
+CREATE TABLE public.tester_gier
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.tester_gier OWNER TO postgres;
+ALTER TABLE public.tester_gier
+    OWNER TO postgres;
 
 --
 -- Name: the_materia; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.the_materia (
-    id uuid NOT NULL,
+CREATE TABLE public.the_materia
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.the_materia OWNER TO postgres;
+ALTER TABLE public.the_materia
+    OWNER TO postgres;
 
 --
 -- Name: the_picturebooks; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.the_picturebooks (
-    id uuid NOT NULL,
+CREATE TABLE public.the_picturebooks
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.the_picturebooks OWNER TO postgres;
+ALTER TABLE public.the_picturebooks
+    OWNER TO postgres;
 
 --
 -- Name: the_raven_age; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.the_raven_age (
-    id uuid NOT NULL,
+CREATE TABLE public.the_raven_age
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.the_raven_age OWNER TO postgres;
+ALTER TABLE public.the_raven_age
+    OWNER TO postgres;
 
 --
 -- Name: the_stubs; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.the_stubs (
-    id uuid NOT NULL,
+CREATE TABLE public.the_stubs
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.the_stubs OWNER TO postgres;
+ALTER TABLE public.the_stubs
+    OWNER TO postgres;
 
 --
 -- Name: the_vintage_caravan; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.the_vintage_caravan (
-    id uuid NOT NULL,
+CREATE TABLE public.the_vintage_caravan
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.the_vintage_caravan OWNER TO postgres;
+ALTER TABLE public.the_vintage_caravan
+    OWNER TO postgres;
 
 --
 -- Name: tribulation; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.tribulation (
-    id uuid NOT NULL,
+CREATE TABLE public.tribulation
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.tribulation OWNER TO postgres;
+ALTER TABLE public.tribulation
+    OWNER TO postgres;
 
 --
 -- Name: triptykon; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.triptykon (
-    id uuid NOT NULL,
+CREATE TABLE public.triptykon
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.triptykon OWNER TO postgres;
+ALTER TABLE public.triptykon
+    OWNER TO postgres;
 
 --
 -- Name: truchlo_strzygi; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.truchlo_strzygi (
-    id uuid NOT NULL,
+CREATE TABLE public.truchlo_strzygi
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.truchlo_strzygi OWNER TO postgres;
+ALTER TABLE public.truchlo_strzygi
+    OWNER TO postgres;
 
 --
 -- Name: ukraine; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.ukraine (
-    id uuid NOT NULL,
+CREATE TABLE public.ukraine
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.ukraine OWNER TO postgres;
+ALTER TABLE public.ukraine
+    OWNER TO postgres;
 
 --
 -- Name: urne; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.urne (
-    id uuid NOT NULL,
+CREATE TABLE public.urne
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.urne OWNER TO postgres;
+ALTER TABLE public.urne
+    OWNER TO postgres;
 
 --
 -- Name: vader; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.vader (
-    id uuid NOT NULL,
+CREATE TABLE public.vader
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.vader OWNER TO postgres;
+ALTER TABLE public.vader
+    OWNER TO postgres;
 
 --
 -- Name: wiegedood; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.wiegedood (
-    id uuid NOT NULL,
+CREATE TABLE public.wiegedood
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.wiegedood OWNER TO postgres;
+ALTER TABLE public.wiegedood
+    OWNER TO postgres;
 
 --
 -- Name: witchcraft; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.witchcraft (
-    id uuid NOT NULL,
+CREATE TABLE public.witchcraft
+(
+    id          uuid NOT NULL,
     discography text,
-    genre text,
-    history text,
-    members text,
-    name text,
-    site text
+    genre       text,
+    history     text,
+    members     text,
+    name        text,
+    site        text
 );
 
 
-ALTER TABLE public.witchcraft OWNER TO postgres;
+ALTER TABLE public.witchcraft
+    OWNER TO postgres;
 
 --
 -- Data for Name: alien_weaponry; Type: TABLE DATA; Schema: public; Owner: postgres
@@ -1934,7 +2110,8 @@ f14dea04-0407-48a3-abe4-977a43532012	Dyskografia: Albumy: Motanka (2019).	Rodzaj
 -- Data for Name: mystic_accommodation; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.mystic_accommodation (id, accommodation1, accommodation2, accommodation3, accommodation4, accommodation5) FROM stdin;
+COPY public.mystic_accommodation (id, accommodation1, accommodation2, accommodation3, accommodation4,
+                                  accommodation5) FROM stdin;
 f4fb6d27-06bc-4f0b-8e45-3d8cab6db95e	Zarezerwuj nocleg na czas pobytu w Gdańsku poprzez portal Booking.com	Zarezerwuj nocleg na czas pobytu w Gdańsku poprzez portal Hotellook	Zarezerwuj nocleg na czas pobytu w Gdańsku poprzez portal trivago.pl	Zarezerwuj nocleg na czas pobytu w Gdańsku poprzez portal Sembo	
 \.
 
@@ -1943,7 +2120,8 @@ f4fb6d27-06bc-4f0b-8e45-3d8cab6db95e	Zarezerwuj nocleg na czas pobytu w Gdańsku
 -- Data for Name: mystic_band_description; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.mystic_band_description (id, band_description, band_discography, band_genre, band_members, band_name, band_site) FROM stdin;
+COPY public.mystic_band_description (id, band_description, band_discography, band_genre, band_members, band_name,
+                                     band_site) FROM stdin;
 \.
 
 
@@ -2055,7 +2233,9 @@ cfb8d7bd-fd85-4f7a-bf40-ef97aed0061b	Ulica Elektryków: W samym sercu gdańskiej
 -- Data for Name: mystic_news_numeration; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.mystic_news_numeration (id, news1, news10, news11, news12, news13, news14, news15, news16, news17, news18, news19, news2, news20, news21, news22, news23, news24, news25, news26, news27, news28, news29, news3, news30, news4, news5, news6, news7, news8, news9) FROM stdin;
+COPY public.mystic_news_numeration (id, news1, news10, news11, news12, news13, news14, news15, news16, news17, news18,
+                                    news19, news2, news20, news21, news22, news23, news24, news25, news26, news27,
+                                    news28, news29, news3, news30, news4, news5, news6, news7, news8, news9) FROM stdin;
 dc2b96bd-9b06-43bb-93ee-4543d785b6a6	26.11.2021 - Zmiany w programie Mystic Festival 2022! Carcass, bogowie grind’n’rolla, zagrają 1 czerwca w ramach Warm Up Day, zastępując w składzie Napalm Death. The Raven Age wystąpią zamiast Infected Rain, a program festiwalu dodatkowo zasili Brutus! Carcass zawsze byli wielcy – od pierwszych dni, kiedy taplali się we flakach i posoce, po swój łabędzi śpiewa, gdy grali NWOBHM na sterydach. Po zbyt wielu latach przerwy powrócili świetnym albumem „Surgical Steel”, by poprawić w tym roku jeszcze lepszym „Torn Arteries”. Koncertowo? Zawsze zabijali skutecznie i precyzyjnie. Carcass zastąpią Napalm Death w programie Warm Up Day, a więc wszystko zostaje w rodzinie. Belgijski Brutus – posthardcore’owe i postmetalowe trio, z fenomenalną Stefanie Mannaerts za bębnami i przy mikrofonie – planuje roznieść scenę scenę Shrine w ramach dnia Don’t Burn The Witch. Czy są do tego zdolni? Posłuchajcie koncertówki „Live in Ghent“ i nie będziecie mieć wątpliwości. The Raven Age grają heavy metal. Może to kwestia genetyczna, w końcu gitarzysta George Harris jest synem lidera Iron Maiden, ale i świadomy wybór – w końcu robią to, co robią naprawdę dobrze. Ich melodyjne, tradycyjne podejście do gatunku czasem spotyka się z nowoczesnymi, metalcore’owymi wpływami, co tylko dodaje sprawie pikanterii. The Raven Age zastąpią w programie festiwalu Infected Rain.	12.04.2022 - Oficjalna rozpiska godzinowo-programowa Mystic Festival 2022! Festiwal coraz bliżej, nadchodzi czas trudnych wyborów i starannego planowania. Oczywiście, rozkład jazdy może jeszcze ulegać drobnym korektom – na oficjalnej stronie festiwalu zawsze będziecie mogli sprawdzić i pobrać jego aktualną wersję. Natomiast poniżej w linku aktualny rozkład jazdy Mystic Festival.	15.04.2022 - aktualizacja repertuaru VHS HELL CHILLOUT ZONE! Odpowiedzialna za festiwalowe kino ekipa VHS HELL przygotowała nie tylko solidny zestaw horrorów z epoki kaset wideo, ale również 90‘s Trash Treat, czyli nostalgiczny set oldskulowych reklam, klipów z czasów, kiedy MTV jeszcze puszczało muzykę oraz solidną dawkę trailerów filmów z początku lat 90. W VHS HELL CHILLOUT ZONE złapiecie oddech między koncertami, popijając piwo w retro klimacie. 2 czerwca - czwartek - 17:30 - 90‘s Trash Treat; 18:00 - REPRODUKTORKI, reż. Tim Kincaid, 1986, 77‘; 19:20 - 90‘s Trash Treat; 20:00 - BLACK ROSES, reż. John Fasano, 1988, 90’ (pokaz z lektorem na żywo); 21:30 - 02:00 - 90‘s Trash Treat; 3 czerwca - piątek - 17:30 - 90‘s Trash Treat - 18:00 - ZNISZCZENIE MÓZGU, reż. Frank Henenlotter, 1988, 84’; 19:30 - 90‘s Trash Treat; 20:00 - POWRÓT ŻYWYCH TRUPÓW, reż. Dan O’Bannon, 1985, 91’; 21:35 - 02:00 - 9‘ Trash Treat - 4 czerwca - sobota: 17:30 - 90‘s Trash Treat - 18:00 – REPRODUKTORKI, reż. Tim Kincaid, 1986, 77‘; 19:20 - 90‘s Trash Treat - 20:00 - ZNISZCZENIE MÓZGU, reż. Frank Henenlotter, 1988, 84’; 21:30 - 02:00 - 90‘s Trash Treat.	25.04.2022 - Road To Mystic, konkurs zorganizowany przez Mystic Coalition we współpracy z Antyradiem, to droga, która doprowadzi was na Mystic Festival. Dzisiaj poznajemy czterech finalistów: Asperatus, Comepass, Planet Hell i Source Of Mary. Finał live już w piątek, przed koncertami Igorrr i Otto Von Schirach w warszawskim klubie Progresja. Uczestnikom konkursu dziękujemy za sportową postawę (a już na pewno większości z nich…), fanom za setki oddanych głosów, jurorom za wskazanie swojego faworyta. Ze znakomitej pięćdziesiątki zostały cztery kapele, które reprezentują bardzo różne oblicza muzyki metalowej i rockowej. Już w piątek, na scenie warszawskiej Progresji, zobaczymy krakowski Asperatus, specjalizujący się w klasycznie pojmowanym death metalu, poznański Comepass, który balansuje pomiędzy indie rockiem a metalem, śląski sci-fi deathmetalowy Planet Hell oraz trójmiejską grupę Source Of Mary, która do metalowego ciężaru dokłada progresywne ambicje. Kolejność występów zespołów konkursowych ustalimy drogą losowania w dniu występu. Zespół, który tego wieczoru najbardziej przypadnie do gustu jurorom konkursu otrzyma zaproszenie na Mystic Festival 2022 do Gdańska, a jego muzyka będzie prezentowana na antenie Antyradia.	26.04.2022 - Gdańsk jest jednym z najlepiej skomunikowanych miast w Polsce, więc na Mystic Festival 2022 możecie przybywać lądem, wodą i powietrzem! To tylko 4 godziny jazdy autostradą z Warszawy, 6 godzin z Berlina i trochę ponad 8 z Pragi. Promem przypłyniecie do Trójmiasta ze Szwecji i z Finlandii. Bezpośrednie i tanie loty do Gdańska odbywają się z wszystkich najważniejszych kierunków europejskich, m.in. z Niemiec, Wielkiej Brytanii, Skandynawii, Francji, Holandii, Belgii, Włoch i Austrii, a także m.in. z USA czy Kanady. Na miejscu poruszać się możecie miejską koleją SKM, która z każdego punktu w Trójmieście podwiezie was pod sam festiwal. Wysiadacie na przystanku Gdańsk Stocznia. A jeśli szukacie transportu na Mystic Festival lub macie miejsce, zachęcamy Was do umawiania się na oficjalnej grupie na Facebooku: KLIKNIJ TUTAJ.	04.05.2022 - Road To Mystic, konkurs zorganizowany przez Mystic Coalition we współpracy z Antyradiem, to droga, która doprowadziła na Mystic Festival dwa znakomite zespoły: Comepass i Planet Hell. W piątkowy wieczór w warszawskim klubie Progresja, przed koncertami Igorrr i Otto Von Schirach, odbył się finał konkursu Road to Mystic. Usłyszeliśmy i zobaczyliśmy cztery krótkie, ale świetne prezentacje bardzo różnych zespołów: Asperatus, Comepass, Planet Hell i Source Of Mary. Występy oceniało jury w składzie: Adam Brzeziński (Mystic Production), Łukasz Dunaj (Noise Magazine, Radio 357), Jarosław Anzhellmo Giers (Antyradio), Marek Prezes Laskowski (Progresja) i Jarek Szubrycht (Gazeta Wyborcza, Mystic Festival). Zwycięzca miał być tylko jeden, ale wysoki poziom uczestników konkursu sprawił, że organizatorzy zdecydowali się zaprosić dwa zespoły. W czerwcu w gdańskiej Stoczni zobaczymy więc Comepass i Planet Hell. Comepass to poznański kwartet, który swoją muzykę opisuje jako pogranicze grunge'u, rocka progresywnego i metalu alternatywnego. Dobre piosenki, mocne refreny, wyrazisty wizerunek i sceniczna energia – to ich atuty. Niedawno wydali podwójny singel „Reason” / „Grievance”. Planet Hell są doświadczonymi muzykami, którzy w pod tym szyldem grają od 2014 r. Unikalne brzmienie wykuwają z surowców dostarczonych przez klasyków death, thrash, black metalu i industrialu, a całość spina oryginalny koncept inspirowany dziełami Stanisława Lema, polskiego geniusza science-fiction. Mają już za sobą koncerty u boku m.in. Samaela, Suffocation, Obituary i Pestilence oraz dwie wysoko oceniane płyty: „Mission One” i „Mission Two”. 	10.05.2022 - Malevolence, skondensowana wściekłość, dołącza do składu tegorocznego Mystic Festival. Kwintet z Sheffield wojuje w undergroundzie od 2006 rok. Do studia zagląda dość rzadko – zapowiadany na 20 maja album „Malicious Intent“ to ich trzecia płyta, a debiut w barwach Nuclear Blast – bo non stop koncertuje. Na żywo ich mikstura hardcore’a, thrashu i sludge metalu burzy małe budynki i strąca samoloty. Ostrzegaliśmy! Malevolence zastąpią w programie festiwalu zespół Code Orange.	12.05.2022 - Wystarczy to poczuć i zagrać nam swój ulubiony numer na niewidzialnym instrumencie, by wygrać pierwsze Mistrzostwa Polski Air Guitar i polecieć do Finlandii, by tam reprezentować nasz kraj na Mistrzostwach Świata! Wydarzenie bez precedensu odbędzie się już 1 czerwca na Mystic Festival Warm Up Day w gdańskiej Stoczni. „Chłopiec z gitarą byłby dla mnie parą” – deklarowała w refrenie swojego hitu Karin Stanek, jedna z pionierek polskiego rock’n’rolla. Ale że co? Chłopiec bez gitary niby gorszy? Albo dziewczyna? Prawdziwemu wirtuozowi brak instrumentu nie przeszkodzi! Witamy w świecie Air Guitar! Już 1 czerwca, w ramach Mystic Festival 2022, na terenie gdańskiej Stoczni, zostaną rozegrane pierwsze oficjalne Mistrzostwa Polski Air Guitar, które zarazem są krajowymi eliminacjami do Air Guitar World Championships, czyli Mistrzostw Świata Gitar z Powietrza, organizowanych co roku w Oulu, w Finlandii. Musisz mieć: niewidzialny instrument, stalowe cojones, by wyjść z nim na scenę oraz dobrze rozpracowane numery, które chcesz nam zaprezentować. Aby zgłosić się do udziału w Konkursie uczestnik musi nagrać filmik w konwencji Air Guitar przedstawiający jego autorską interpretację utworu zespołu, który wystąpi w tym roku na Mystic Festival lub występował na poprzednich edycjach festiwalu. Uczestnik powinien zamieścić film w wybranych przez siebie mediach społecznościowych (Facebook, Instagram, YouTube lub TikTok), na własnym profilu i oznaczyć: #AirGuitarMystic2022 W konkursie udział biorą wyłącznie uczestnicy, którzy umieścili filmy w okresie pomiędzy 12 a 27 maja 2022 roku. Film powinien mieć minimalną długość 1 minuta, ale nie powinien być dłuższy niż 2 minuty. Dozwolone jest wykorzystanie dowolnych kostiumów, masek i scenografii, nie są dozwolone gadżety udające gitarę – obie ręce muszą być wolne, by uczestnik konkursu mógł jak najlepiej zagrać na instrumencie „z powietrza”, nie używając instrumentów, ani innych rekwizytów. Najlepszą dziesiątkę zapraszamy do Gdańska na Mystic Festival 2022 Warm Up Day i do sportowej walki, która odbędzie się na Desert Stage. Śmiałków oceniać będzie profesjonalne jury. W jego składzie mamy wyłącznie muzyków, bo kto od nich lepiej wie, że czego się nie dogra, to się dowygląda? ;) Pierwsze, historyczne Mistrzostwa Polski Air Guitar sędziować będą: Grzegorz Skawiński (Kombii), Zosia Bartoś (Alfah Femmes) i Mariusz Demon Dzwonek (Frontside). Konkurs poprowadzi Adam Grzanka.Nagrodą dla finalistów pierwszych Mistrzostw Polski Air Guitar jest karnet na Mystic Festival 2022. Zwycięzca będzie miał możliwość reprezentowania Polski na Air Guitar World Championships w fińskim Oulu, już w sierpniu 2022 roku, otrzyma także gitarę elektryczną ufundowaną przez firmę Ibanez, partnera Mistrzostw Polski Air Guitar. Mistrzostwa Świata Gitar z Powietrza mają na celu promowanie pokoju na świecie, bo jak zauważyli inicjatorzy i organizatorzy zawodów, gdyby każdy grał na powietrznej gitarze, musiałby porzucić broń, a także zaprzestać innych czynności, które na przykład przyczyniają się do zmian klimatycznych na Ziemi (przypominamy: Gitara z Powietrza nie zżera prądu, a ślad węglowy potrzebny do jej wytworzenia wynosi zero). Gitara z Powietrza jest instrumentem doskonale demokratycznym, bo nie wymaga drogiego sprzętu, dostępu do sali prób i doskonalonych latami umiejętności. Do gry na Gitarze z Powietrza zapraszamy zatem wszystkich, bez względu na rasę, płeć, wiek (no, ale 18 lat musisz mieć, sorry), orientację seksualną, wygląd czy status społeczny. Zasady konkursu znajdziesz w regulaminie dostępnym tutaj:	23.05.2022 - Upałów, jak w 2019 w Krakowie, w tym roku się nie spodziewamy, ale żeby przetrwać cztery dni koncertowego maratonu musicie regularnie się nawadniać. Wszystkim gościom festiwalu zapewnimy dostęp do darmowej wody pitnej, uzupełnianej na bieżąco, według potrzeb. By zaopatrzyć się w wodę możecie wnieść na teren festiwalu bidony o pojemności do 1 litra (tylko puste i wykluczone są pojemniki ze szkła!), ale nie musicie – w sprzedaży będą też piękne bidony festiwalowe, sami zobaczcie na ilustracji. Przy okazji zostawimy po sobie mniej plastiku, co też nie jest bez znaczenia. Nie samą wodą żyje człowiek, więc nie zabraknie też stanowisk, w których kupicie inne napoje (w tym procenty) oraz stoisk z jedzeniem – oczywiście, zadbamy również o opcje wegetariańskie i wegańskie.	24.05.2022 - Hexvessel, Mentor, Hentai Corporation i Neon Mud dołączają do programu festiwalu. Zastąpią w nim Mortiisa, ukraińskie grupy Motanka i 1914 oraz Swayzee Psychodeliczny occult folk rock wyłoni się z głębin fińskich lasów, by zagościć 4 czerwca na Sabbath Stage. W ostatniej chwili do programu Mystic Festival dołączają Hexvessel, by zabrać was w kolorową podróż... Iron Realm Productions, który tego dnia jest patronem Sabbath Stage, zaprosił Hexvessel w zastępstwie za Mortiisa, którego życie zmusiło do zrezygnowania z przylotu do Polski: „Z żalem jestem zmuszony odwołać koncert na tegorocznym Mystic Festival. Powodem są problemy zdrowotne - nie zagrażające życiu i naprawialne, ale powodujące ból, który uniemożliwi mi występ. Już planuję powrót do Polski w kolejnym roku“. Niestety, na festiwalu nie zobaczymy też zapowiadanych wcześniej ukraińskich grup: 1914 i Motanka. Wojna, którą Ukraina bohatersko toczy od trzech miesięcy z rosyjskim najeźdźcą, oznacza dla wszystkich mężczyzn konieczność pozostania w ojczyźnie i obrony kraju. Artystów to również dotyczy, ale żywimy nadzieję, że oba zespoły zobaczymy jeszcze na Mystic Festivalu, podobnie jak fanów z Ukrainy, których wielu gościliśmy choćby na edycji krakowskiej. Jesteśmy z wami! Dziękujemy zespołom, które przyjęły nasze zaproszenie w ostatniej chwili, by uzupełnić skład tegorocznej edycji festiwalu, tym bardziej, że to znakomite formacje. Na Mystic Festival 2022 usłyszycie więc odjechany thrash Hentai Corporation, czarnego jak smoła thrash’n’rolla w wykonaniu Mentora i plugawy stoner/sludge Neon Mud. Na naszej stronie znajdziecie uaktualniony program festiwalu – sprawdźcie go dobrze, by nie przegapić koncertu ulubionego wykonawcy!	27.05.2022 - Czwartek, 2 czerwca, to już Mystic Festival grający pełną parą – na pięć scen i jedno kino. Ucztą dla ucha będzie koncert Opeth, Mastodon was zdepcze, Katatonia zasmuci, a Heilung oszołomią mrocznym rytuałem. W czwartek Sabbath Stage pod opiekę biorą nasi przyjaciele z Napalm Events. Ich propozycja to duńskie (0) i Konvent, penetrujące obrzeża black, doom i post-metalu oraz Norwedzy z Dwaal, piorący na scenie doomowe i sludge’owe brudy. Zagra również nasz rodzimy Mentor, czyli black’n’roll na gołe pięści. Desert Stage to może nie jest ogromna scena, ale wielkie zagwarantuje wam przygody. 2 czerwca rozpoczną się koncertem Neon Mud, maczającego doomowe i stonerowe brzmienia w cuchnącym, sludge’owym sosie. Riffy Major Kong to stoner/doomowe ciężary i zarazem dalekie kosmiczne loty. Dead Lord są ze Szwecji i z lat 70. zarazem - trudno uwierzyć, że ktoś dzisiaj potrafi tak czuć klasycznego hard rocka à la Thin Lizzy czy Nazareth. Wreszcie The Picturebooks, których blues rock brzmi jak podróż chopperem przez amerykańskie Południe w niekończące się, zbyt suche lato. Sceną Shrine tego dnia rządzić będzie kobiecość, ucieleśniona w skrajnie odmiennych stylistycznie projektach. Będzie to zderzający hardcore’ową wściekłość z postrockowym rozmachem Brutus, ponury, ale też kipiący emocjami postmetalowy GGGOLDDD, transowi, eteryczni, a przy tym bezgranicznie oddani ciemności (Dolch), gothic-punkowa Maggot Heart, a także OvO, beztrosko pławiący się w brudzie i hałasie. Park Stage otworzy koncert poznańskiej grupy Comepass, która wygrała tegoroczną edycję konkursu Road To Mystic. Po nich przyjdzie kolej na Kvelertak, a to koncertowe bestie. Dobrze, że Stocznia wytrzymała już niejeden sztorm, bo scena będzie jeszcze potrzebna wizjonerom z Baroness, szamanom z Heilung i ponurakom z Katatonii. Main Stage to waga ciężka i tego dnia pierwsze ciosy wyprowadzą Szkoci z groovemetalowego Bleed From Within. Poprawią po nich Malevolence, brytyjscy chuligani, dokazujący na styku hardcore i thrashu. Mastodon to już legenda, nie trzeba przedstawiać amerykańskich mistrzów riffów, co ukręcają łby, podobnie jak Szwedów z Opeth, którzy też potrafią znokautować, ale stawiają na finezję i chętnie łączą metal z psychodelicznym progockiem sprzed dekad. Mało? Nie chcecie jeszcze spać? Dobrze się składa, bo Nightrun87 właśnie rozkręca na Desert Stage srogi after…	17.12.2021 - Bilety Health Pass Tickets, by dbać o wasze bezpieczeństwo i mieć pewność, że wszyscy spotkamy się w czerwcu pod sceną! Od dziś bilety i karnety na festiwal sprzedawane będą w podziale na Health Pass Tickets (HPT), dla posiadaczy Unijnego Certyfikatu COVID (w skrócie: UCC) oraz dla osób, które w dniu festiwalu nie będą posiadały UCC. Dostępność biletów bez UCC będzie na bieżąco dostosowywana do obowiązujących restrykcji. Osoby, które wcześniej zakupiły karnety i bilety na festiwal nie muszą wymieniać ich na bilety HTP – przy wejściu na festiwal trzeba okazać UCC, ale zgodnie z obowiązującymi przepisami prawa i restrykcjami powierzchnia festiwalu pozwoli namna to,by wszyscy, którzy do tej pory nabyli bilety mogli wziąć udział w imprezie (również osoby bez UCC). Health Pass Ticket (HPT) jest biletem dla osób posiadających aktualny Unijny Certyfikat COVID (UCC), który upoważnia do wejścia na festiwal niezależnie od aktualnie obowiązujących limitów. Mystic Festival jest imprezą zamkniętą, obliczoną na kilkanaście tysięcy widzów. Obie pule biletów mogą ulec wyczerpaniu, więc stuprocentową pewność wzięcia udziału w imprezie daje tylko zaopatrzenie się we właściwą wejściówkę w przedsprzedaży.	28.05.2022 - Po dwóch dniach zabawy normalni ludzie byliby już trochę zmęczeni, ale przecież na mięczaków nie trafiło. Doskonale wiemy, że w piątek, 3 czerwca, będziecie walczyć pod sceną do ostatniej kropli potu. Czekają was przecież koncerty legend, takich jak Saxon, Mayhem czy Benediction, ale i zespołów, które właśnie swoją legendę budują, jak Mgła. Zachowajcie jednak siły na imprezę urodzinową – tej nocy bogowie Judas Priest świętować będą 50 lat w metalu. Piątek na Sabbath Stage zacznie się od Czerni, która w palecie swoich barw metal stawia na równi z punkiem. Polską scenę reprezentować będzie też znakomity Fleshworld, zamieszkujący ruiny po black metalu i hardcore. Będą też goście z Francji: melancholicy i ponuracy z Hangman’s Chair oraz Déluge, którzy posthardcorową ekspresję topią we wściekłości black metalu i głębinach ambientu. Desert Stage tego dnia otworzą Only Sons, którzy co prawda przyjadą z Krakowa, ale najlepiej czują się wśród amerykańskich riffów sprzed ćwierćwiecza, gdzieś pomiędzy stonerem a grungem w stylu Alice In Chains. „Tak powinno się grać heavy metal” - napisał kiedyś „The Guardian” o Green Lung. No pewnie, że tak - ma być ciężar, trans i czarna magia. Spaceslug to doom i stoner napędzane space rockiem, a The Stubs to punk'n'roll z warszawskiego garażu. Taka energia, że możecie się spodziewać pustynnej burzy. A na afterze czeka was Favorit89, czyli nasycony mrokiem synthwave. Shrine Stage spróbują zburzyć Azarath, więc zagrają ostatni, bo może im się udać, a nie chcemy, żeby inni musieli występować na zgliszczach. Przed autorami „Saint Desecration” zniszczenie siać będą: black/punkowcy z Okkultokrati, Raging Speedhorn, którzy hardcore’ową siłę łączą ze sludge’owym ciężarem, Proscription, zderzający black i death jak tylko Finowie potrafią oraz Tester Gier, którzy swoim oldskulowym thrashem na koncertach gwarantują chaos bez granic. Park Stage ma ładną nazwę, bo miło tam dla oka i zielono, ale prawdopodobnie jest to najbardziej hałaśliwy park na planecie. Tego dnia szaleństwo rozpętają Czesi z Hentai Corporation, potem stoner/doomowym walcem wjedzie Dopelord i wprasuje was w trawnik. Chwila odpoczynku i nad Park Stage nadciągnie cień znad Skandynawii, którego ścieżką dźwiękową będzie melancholijny death/black Tribulation, a po zmroku wszystko pożre Mgła. Dzieła zniszczenia dopełni legenda black metalu, norweska grupa Mayhem. Głupio byśmy się czuli, gdybyśmy musieli ją przedstawiać – wiemy, że wiecie. Na Main Stage tego dnia mamy święto brytyjskiego heavy metalu. Nie planowaliśmy tego, ale fajnie wyszło, przecież bez pionierów z Albionu bylibyśmy w czarnej d… no, na przykład w czarnej dziurze. Jako pierwsi zaprezentują się The Raven Age, szanujący heavymetalową tradycję, ale doskonale czujący groove współczesnego metalu. Benediction przypomną, że Brytyjczycy mają swoją własną wizję death metalu, a Saxon poprowadzi was na zwycięską krucjatę pod zawsze zwycięskim sztandarem NWOBHM. I wreszcie Judas Priest w niepowtarzalnym, jubileuszowym programie, celebrującym ich 50 lat na scenie. Oszczędzajcie gardła do piątku, by razem z Metalowym Bogiem wyśpiewać wszystkie te hymny. Planety będą zdewastowane, ludzkość na kolanach…	29.05.2022 - Wszystko, co dobre, kiedyś się kończy. Zanim jednak wypijemy strzemiennego, pomachamy łbami przy muzyce Mercyful Fate, Killing Joke, Vadera, Igorrr, Sólstafir i wielu innych, znakomitych zespołów. A za rok znowu przybędziemy na sabat… W sobotę na Sabbath Stage zaprasza Iron Realm Productions, a to oznacza klątwy, zmory i upiory. Hexvessel wciągną nas w leśne ostępy i odprawią rytuały, po których nic już nie będzie takie samo. Lindy-Fay Hella – czyli kobieca strona żywiołu zwanego Wardruną, tutaj w indywidualnym wcieleniu – wyśpiewa nam swoją wizję legend Północy. Szwedzki Grift może razić blackmetalowym jadem i utulić folkową balladą, ale zawsze będą to dźwięki rozpaczy i samotności. A warszawski postmetalowy Rosk po prostu zgasi światło. W ich muzyce nie ma na nie miejsca. Na Desert Stage przybędą goście z miasta pod Pustynią Błędowską, czyli krakowski Taraban, którzy poruszają się na styku bluesa, hard rocka i psychodelii. W muzyce Red Scalp słychać podobne wpływy, ale trzeba dodać rytuały indiańskich szamanów i kosmiczne wizje. Jeszcze bardziej odjechany jest norweski Arabrot, który swobodnie żongluje dźwiękami od noise rocka przez gotyk, post-punk aż do metalu. Na finał zagrają The Vintage Caravan psychodelicznego hard rocka, który na przełomie lat 60. i 70. zrobiłby z nich gwiazdę światowego formatu. W sobotę na Shrine Stage będzie jeszcze ciemniej niż w poprzednie dni, najciemniej. Konfrontacji z wytyczającym nowe granice ekstremalnego metalu Imperial Triumphant długo nie zapomnicie. Po blackmetalowej chłoście w wykonaniu Medico Peste i Wiegedood długo nie zmrużycie oka, a w podróż do przeszłości zaproszą was Truchło Strzygi i Baest – ci pierwsi wciągną w black/thrashowe labirynty, ci drudzy przypomną lata potęgi skandynawskiej sceny deathmetalowej. Planet Hell o 15.15 na Park Stage to będzie pierwszy koncert tego dnia – i od razu lot w kosmos rakietą z deathmetalowym napędem. „When I Die, Will I Get Better?” – pyta w tytule swojej ostatniej płyty brytyjski Svalbard. Odpowiedzi na to pytanie nie znamy, ale doskonale wiemy, że od kontaktu z ich postmetalowymi/posthardcore’owymi numerami na pewno zrobi wam się lepiej. Witchcraft zahipnotyzuje was transowym hard rockiem o doomowych korzeniach, Sólstafir oczarują swoją magią z Północy, a na finał jeźdźcy apokalipsy – Killing Joke. The Materia tego dnia rozpalą Main Stage. Dźwigają ciężary, ale ich muzyka jest zarazem doskonała technicznie, poszukująca, nowoczesna. Igorrr z kolei to absolutne szaleństwo, muzyczny eksperyment zderzający ze sobą najbardziej odległe bieguny. Vadera w Polsce przedstawiać nie trzeba, podobnie jak kultowej płyty „De Profundis”, na której opierał będzie się ten show – to przecież jeden z najlepszych albumów deathmetalowych wszech czasów. Nie złamaliście przysięgi? Zatem nocą nawiedzą was Mercyful Fate z zaklęciami, bez których nie powstałby black czy death metal. Jesteśmy dumni, że możemy gościć taką legendę na Mystic Festival. Ale jeszcze się nie rozchodzimy, jeszcze nie żegnamy! Na Desert Stage dobijać was będzie do skutku kolektyw Neon Haze, czyli połączone siły Octopussy, Favorit89 i Nightrun87. Bawcie się aż za dobrze, bo to będą ostatnie chwile tej edycji Mystic Festival. Na następną, na szczęście, poczekacie już tylko rok. My z kolei już nie możemy się doczekać, żeby powiedzieć wam, co szykujemy…	30.05.2022 - Na festiwalu nie samą muzyką żyje człowiek (sami nie wierzymy, że to napisaliśmy). Trzeba coś zjeść, wypić to i owo, warto zaopatrzyć się w gadżety albo płyty, których w lokalnym sklepie nie mają, można też wesprzeć idee i aktywności, które naszej pomocy potrzebują. Poniżej znajdziecie listę stoisk gastronomicznych, sklepików z muzyką i okolicami oraz organizacji pozarządowych, które czekają na was na Mystic Festival 2022. Płyty, koszulki, książki i inne gadżety związane z muzyką zaproponują wam: Mystic Production, Rockmetalshop.pl, Arcana Ignis, Altercore, In Rock, Fantasy/jne/ Bajery, 2nd Chance Vinyl, Ledo Takas, Mythrone Promotion i Mad Lion Records. Aktywiści Stowarzyszenia Arbuz opowiedzą wam, jak pomagają, również za pomocą kultury i sztuki, migrantom oraz uchodźcom przybywającym do Trójmiasta, Otwarte Klatki o działaniach na rzecz polepszenia losu zwierząt hodowlanych, a Fundacja Koci Azyl o pomocy udzielanej porzuconym pupilom. Co dla ciała? Bywalcy Stoczni doskonale znają hub kulinarny W4 Food Squat, którego oferta zaspokoi potrzeby największych smakoszy, a spragnionych napoi. Znajdziecie tam foodtrucki: Łąka, Panczo, Carmnik, NieMięsny, Alga oraz Ogniem i Piecem. Do tego przy Main Stage czekają na was: Dirty Sandwicz, Carmnik, Langosze, Zapiekanki, Pizza, Frytki Belgijskie i Kawa. Przy Park Stage znajdziecie natomiast: Kuchnię Dla Odważnych, Dos Amigos, Dim Sum, Stripesy z Kurczaka, Chinkali, Baozi i Kawę. Stanowisk z piwem i innymi napojami nie będziecie musieli szukać – będzie ich pod dostatkiem na całym terenie festiwalu. Płyny otrzymacie w kubkach tak pięknych, że choć są zwrotne, być może będziecie chcieli je zatrzymać na pamiątkę – i oczywiście, nie krępujcie się. Na zdrowie!	15.06.2022 - Udało się. Mystic Festival wrócił silniejszy i bardziej różnorodny niż kiedykolwiek wcześniej. Dziękujemy artystom, ekipom zaangażowanym w jego organizację, wspierającym nas mediom i przede wszystkim fanom, którzy tłumnie stawili się w gdańskiej Stoczni. Nie czas na to, by skarżyć się teraz, jak trudny czas za nami. Organizowanie trzykrotnie tego samego festiwalu, dwukrotne odwoływanie, przekonywanie artystów, by z nami zostali i jeszcze przenosiny na drugi koniec Polski – wyzwania, z którymi się mierzyliśmy wielu mogłyby zniechęcić. Ale my się nie poddaliśmy, bo nie odpuścili fani. Wierzyli w festiwal, zostali z nami, zatrzymali karnety i bilety, byśmy mogli zorganizować to święto najlepiej jak umiemy. Za nami cztery dni wypełnione muzyką, spotkaniami, rozmowami, filmami, śmiechem, śpiewem, biesiadami… Słowem: dobrą zabawą. Od 1 do 4 czerwca 2022 roku w Stoczni zaprezentowały się dziesiątki zespołów z całego świata, od debiutantów, po prawdziwe legendy, z Judas Priest, Mercyful Fate i Opeth na czele. Oklaskiwało ich ok. 10 tys. ludzi dziennie. Stocznia okazała się miejscem gościnnym, malowniczym i pełnym niespodzianek, co zostało docenione zarówno przez lokalną publiczności, jak i gości przybywających z daleka. Już dziś możemy więc zaprosić was na Mystic Festival 2023 – zgodnie z waszymi życzeniami odbędzie się w czerwcu, w Gdańsku, na terenie Stoczni.							07.01.2022 - Matthew Kiichi Heafy, lider Trivium, prezentuje utwór, którego nie znajdziecie na żadnej płycie, zatytułowany Behold Our Power (The Mystic Festival Anthem), z gościnnym udziałem Chucka Billy’ego z Testament. Utwór jest oficjalnym hymnem Mystic Festival, największego polskiego festiwalu metalowego, którego kolejna edycja odbędzie się w Gdańsku od 2 do 4 czerwca. 'Behold Our Power (The Mystic Festival Anthem)' to oficjalny hymn Mystic Festival, największego festiwalu metalowego w Polsce. Festiwalu, na którym zarówno Trivium jak i Testament byli przywitani przez entuzjastyczny tłum metalowych maniaków.		11.01.2022 - Ekstremalna muzyka lubi towarzystwo złego kina, więc na Mystic Festival oczekiwanie na koncert ulubionego wykonawcy możecie umilić sobie wizytą w kinie festiwalowym. Tam ekipa VHS Hell pokaże wam filmy, po których nic już nie będzie takie samo. VHS Hell to cykliczne pokazy tanich i cudownie pokracznych filmów gatunkowych znalezionych na najniższych półkach wypożyczalni kaset wideo i które są tak potwornie złe, że aż dobre. Repertuar: 'Powrót żywych trupów, reż. Dan O’Bannon, 1985, 91 min.'; 'Zniszczenie mózgu, reż. Frank Henenlotter, 1988, 84 min.; 'Reproduktorki, reż. Tim Kincaid, 1986, 77 min.'; 'Black Roses, reż. John Fasano, 1988, 90 min. (pokaz z lektorem na żywo)'	26.01.2022 - Największy metalowy festiwal w tej części Europy otworzy przed Tobą bramy piekieł: zwycięzcę aukcji wraz z osobą towarzyszącą w wybrany dzień zaprosimy na wycieczkę po zapleczu festiwalu. Będziecie mogli obejrzeć niektóre koncerty z boku sceny, zobaczyć kulisty festiwalowej produkcji i zjeść w restauracji, w której jedzą artyści. Możesz wylicytować festiwalowe doświadczenie, jakiego nie będzie miał nikt inny. Ale najważniejsze jest to, że pomożesz – w tym roku WOŚP gra dla okulistyki dziecięcej.	24.03.2022 - Mystic Coalition i Antyradio zapraszają zespoły do wzięcia udziału w konkursie Road to Mystic. To droga, która doprowadzi was na Mystic Festival. Chcecie zagrać na początku czerwca w Gdańsku, obok m.in. Judas Priest, Mercyful Fate i Opeth? Czekamy na zgłoszenie! Road to Mystic jest konkursem dla zespołów, które chcą i powinny wystąpić na Mystic Festival. Możecie mieć w dorobku tylko nagrania demo, ale wasza dyskografia może też liczyć kilka płyt – staż i zasługi na początku tej drogi nie mają znaczenia. Dowolny jest również rodzaj wykonywanej muzyki, dopóki wpisuje się w linię programową naszego festiwalu – a więc death i black będą w porządku, heavy metal i thrash też, do tego stoner, grind, hardcore, sludge, doom, gothic, post-metal… Wszystko jedno, co gracie, byle żarło. Żeby wziąć udział w Road To Mystic trzeba wypełnić formularz dostępny na stronie festiwalu i czekać na przyjęcie zgłoszenia. Czekamy do 8 kwietnia! Wszystkie zgłoszenia dopuszczone do konkursu utworzą listę zespołów, na które fani muzyki będą mogli głosować od 11 kwietnia do 22 kwietnia. Do ścisłego finału trafią trzy grupy, które uzyskają najwięcej głosów oraz jeden zespół wskazany przez jury (tzw. dzika karta). Jury zastrzega sobie możliwość nieprzydzielenia dzikiej karty – wtedy przechodzi kapela, która w głosowaniu uplasowała się na czwartym miejscu. Najlepszą czwórkę poznamy 25 kwietnia, a już 29 kwietnia odbędzie się koncert finałowy – poprzedzający występy Igorr, Otto Von Schirach i Drumcorps w warszawskim klubie Progresja. Zespół, który tego wieczoru najbardziej przypadnie do gustu jurorom konkursu otrzyma zaproszenie na Mystic Festival 2022 do Gdańska, a jego muzyka będzie prezentowana na antenie Antyradia.	28.03.2022 - Z radością przekazujemy wam wiadomość, że dzięki poprawie sytuacji epidemicznej w Polsce po ponad dwóch latach przestały obowiązywać jakiekolwiek obostrzenia związane  organizacją koncertów i festiwali. Od dzisiaj możemy się spotykać na koncertach i wspólnie cieszyć muzyką bez jakichkolwiek formalnych ograniczeń. Na Mystic Festival 2022 nie będzie więc obowiązku noszenia maseczek, nie będziemy też sprawdzać paszportów covidowych przy wejściu na teren imprezy. Bilety z certyfikatem Health Pass Ticket oraz bilety bez certyfikatu traktowane będą jednakowo i od ich okazicieli nie będziemy wymagali żadnych dodatkowych dokumentów czy zaświadczeń. Oczywiście, brak obostrzeń nie oznacza braku odpowiedzialności – dbajcie o siebie i o innych, byśmy mogli wszyscy spotykać się na tym i kolejnych edycjach festiwalu. Do zobaczenia w czerwcu!	06.04.2022 - Benediction to pionierzy brytyjskiego death metalu, na placu boju od 1989 roku. Z radością witamy ich na Mystic Festivalu. Do programu dołącza też warszawska grupa Swayzee. Benediction są – obok Bolt Thrower – pionierami i mistrzami klasycznego brytyjskiego death metalu. Od debiutu „Subconscious Terror” z 1990 roku, po wydany 30 lat później album „Scriptures” pozostają wierni raz wypracowanej formule – jest surowo, bez udziwnień i upiększeń, brzmienie pancerne, riffy zabójcze, growl z piekła rodem. Wystąpią na Main Stage w piątek, 3 czerwca, a więc zrobi nam się wspaniały dzień brytyjski – Judas Priest, Saxon, The Raven Age i właśnie Benediction. Swayzee to punk, glam i rock’n’roll. Gołe klaty, dzikie harce i melodie, które będą za wami chodzić do końca festiwalu, a może nawet wproszą się do domu. Warto sprawdzić wcześniej ich płytę „Greatest Hits” – koncerty jeszcze lepsze, ale dzięki temu będziecie mogli śpiewać refreny. Benediction i Swayzee zastępują w składzie festiwalu grupy Obituary i Stay Nowhere.	11.04.2022 - Road To Mystic, konkurs zorganizowany przez Mystic Coalition we współpracy z Antyradio, to droga, która doprowadzi was na Mystic Festival 2022. Dzisiaj poznajemy 50 zespołów, które zrobiły na jurorach największe wrażenie. Teraz wszystko w rękach publiczności.Road to Mystic jest konkursem dla zespołów, które chcą i powinny wystąpić na Mystic Festival, ale w tym roku same muszą się o to upomnieć. W pierwszej turze czekaliśmy na zgłoszenia i wyniki naboru przeszły naszej najśmielsze oczekiwania! Zgłosiło się 160 zespołów, z czego absolutna większość to grupy, które reprezentują poziom zasługujący na sceny najlepszych festiwali. Byli to zarówno weterani, jak i ambitna młodzież, były dźwięki spokojne, indierockowe, ale był też bezkompromisowy grindcore i bluźnierczy black metal. Wszystko było. Niestety, na tym etapie regulamin przewiduje dopuszczenie tylko 50 artystów do półfinału, ale jesteśmy przekonani, że z większością z tych, którym w tym roku się nie udało, jeszcze się na Mysticu zobaczymy. Głosowanie publiczności w konkursie Road To Mystic 2022 trwa od 11 kwietnia do 22 kwietnia. Do ścisłego finału trafią trzy grupy, które uzyskają najwięcej głosów oraz jeden zespół wskazany przez jury (tzw. dzika karta). Jury zastrzega sobie możliwość nieprzydzielenia dzikiej karty – wtedy przechodzi kapela, która w głosowaniu uplasowała się na czwartym miejscu. Zwycięską czwórkę poznamy 25 kwietnia, a już 29 kwietnia odbędzie się koncert finałowy – poprzedzający występy Igorrr i Otto Von Schirach w warszawskim klubie Progresja. Zespół, który tego wieczoru najbardziej przypadnie do gustu jurorom konkursu otrzyma zaproszenie na Mystic Festival 2022 do Gdańska, a jego muzyka będzie prezentowana na antenie Antyradia. Na poniższej stronie można zapoznać się bliżej z wymienionymi grupami, posłuchać ich muzyki i oddać głos na wybrany zespół. Głosowanie odbywa się online, z potwierdzeniem mailowym – szczegóły znajdziecie w instrukcji na stronie.
 \.
 
@@ -2064,7 +2244,9 @@ dc2b96bd-9b06-43bb-93ee-4543d785b6a6	26.11.2021 - Zmiany w programie Mystic Fest
 -- Data for Name: mystic_open_air_numeration; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.mystic_open_air_numeration (id, open_air_news1, open_air_news10, open_air_news2, open_air_news3, open_air_news4, open_air_news5, open_air_news6, open_air_news7, open_air_news8, open_air_news9) FROM stdin;
+COPY public.mystic_open_air_numeration (id, open_air_news1, open_air_news10, open_air_news2, open_air_news3,
+                                        open_air_news4, open_air_news5, open_air_news6, open_air_news7, open_air_news8,
+                                        open_air_news9) FROM stdin;
 65ef0f20-5c51-4a82-a53a-efeb8f66be83	05.10.2021 - Mystic Festival 2022 Open Air - 02-04.06.2022 /CZWARTEK-PIĄTEK-SOBOTA/ Gdańsk Stocznia; Polska; Danie główne Festiwalu! Opeth, Mastodon, Judas Priest, Obituary, Mercyful Fate,Napalm Death, Katatonia, Mgła, Mayhem, Vader oraz wiele innych! Te nazwy mówią same za siebie! Sceny - Main Stage,Park Stage,The Shrine Stage,Desert Stage,Sabbath Stage. Bilety jednodniowe na konkretne dni. Karnet VIP czterodniowy (w cenie bar z szerokim dostępem do wszelkiej maści trunków) + gadżety, strefa VIP.		04.02.2022 - Giganci heavy metalu z Saxon mają dla nas dobrą radę: trzymaj dzień! Coś w tym jest, jutro może być gorzej. 'Carpe Diem', 23 album studyjny brytyjskich weteranów, został wyprodukowany przez Andy’ego Sneapa (obecnie gitarzystę Judas Priest, ale przede wszystkim wziętego producenta, m.in. Exodus, Accept, Arch Enemy). Co zawiera? „Klasyczne riffy i melodie, które brzmią tak, jakby mogły powstać w latach ‘Power and the Glory’ i ‘Crusader’” – czytamy w jednej z entuzjastycznych recenzji. A z koncertową siłą tego – oraz klasycznego – materiału Saxon zmierzymy się w Gdańsku na Mystic Festival. Brytyjscy krzyżowcy staną do bitwy 3 czerwca na main stage!	18.02.2022 - Blackmetalowa wściekłość, folk z Północy i Południa, gotyckie mroki oraz błoto i krew okopów I wojny światowej – to wszystko i znacznie więcej czeka was na Sabbath Stage.  Planując wyprawę na duży festiwal zwykle skupiamy uwagę na headlinerach – i słusznie, szczególnie jeśli są to artyści tak wspaniali, jak ci, których będziemy gościć w czerwcu w Gdańsku. Ale nie traćcie z oczu nazw zapisanych mniejszą czcionką – choćby tych, które stworzą w tym roku niepowtarzalny program Sabbath Stage. Warto zobaczyć tych artystów z bliska póki się da, bo wśród nich na pewno kryją się przyszli headlinerzy. W czwartek, 2 czerwca, Sabbath Stage pod opiekę biorą nasi przyjaciele z Napalm Events. Ich propozycja to ukraiński zespół 1914, czyli opowieść o okrucieństwach I wojny światowej w epickiej death/doomowej oprawie, duńskie (0) i Konvent, penetrujące obrzeża black, doom i post-metalu oraz Norwedzy z Dwaal, piorący na scenie doomowe i sludge’owe brudy. Piątek, 3 czerwca to na Sabbath Stage czas Francuzów: melancholików i ponuraków z Hangman’s Chair oraz Déluge, którzy posthardcorową ekspresję topią we wściekłości black metalu i głębinach ambientu. Będzie też silna reprezentacja poszukującej frakcji polskiej sceny, w postaci Fleshworld (nie możemy przestać słuchać ich znakomitego albumu „The Essence Has Changed, but the Details Remain“ z 2019 roku) oraz Czerni, która w palecie swoich barw metal stawia na równi z punkiem. W sobotę na Sabbath Stage zaprasza Iron Realm Productions, a to oznacza klątwy, zmory i upiory. Mortiisa nie trzeba przedstawiać, to legenda tej sceny i zarazem samotnik, wytrwale drążący własne tunele pomiędzy gotykiem, electropopem a industrialem. Lindy-Fay Hella – czyli kobieca strona żywiołu zwanego Wardruną, tutaj w indywidualnym wcieleniu – wyśpiewa nam swoją wizję legend Północy, z kolei w wielokulturowym, bałkańskim kotle zanurzy nas Irfan. Szwedzki Grift może razić blackmetalowym jadem i utulić folkową balladą, ale zawsze będą to dźwięki rozpaczy i samotności. A warszawski postmetalowy Rosk po prostu zgasi światło. W ich muzyce nie ma na nie miejsca.	14.03.2022 - Czym byłaby świątynia metalu bez kapłanów? W tym roku na Shrine Stage swoje plugawe obrzędy i zakazane rytuały odprawią m.in. Decapitated, Imperial Triumphant Azarath, Gaerea, Brutus, GGGOLDDD i Okkultokrati. Ofiar z ludzi i zwierząt nie planują. Wiemy, że dobrze wspominacie Shrine Stage z 2019 roku. To tam na plasterki siekali was Immolation, Powertrip czy Possessed, a nędzne szczątki w ziemię wprasował swoim ciężarem Crowbar. Na Mystic Festival 2022 również będzie to scena, gdzie może nie zobaczycie największych gwiazd gatunku, ale za to będziecie mieli do czynienia z esencją, z tym co w metalu i jego okolicach dziś najciekawsze i najbardziej ekstremalne. Shrine Stage zaprasza pielgrzymów w swoje progi już w środę, 1 czerwca. W Polsce obchodzi się wtedy Dzień Dziecka, ale to będzie propozycja tylko dla dorosłych. Death-maszyna o nazwie Decapitated zmieli wszystko, co znajdzie się w jej zasięgu, Gaerea prześlą życzenia wszystkiego najgorszego prosto z otchłani, a Spectral Wound pożrą dusze, których nie ma. Ciało od kości swoim czystym jak skalpel death metalem oddzielą Skeletal Remains, a dzieła zniszczenia dopełni Lik, kontynuujący najlepsze tradycje szwedzkiej sceny. W czwartek, 2 czerwca, na Shrine Stage dominować będzie żywioł kobiecy, ucieleśniony w skrajnie odmiennych stylistycznie projektach. Będzie to zderzający hardcore’ową wściekłość z postrockowym rozmachem Brutus, ponury, ale też kipiący emocjami postmetalowy GGGOLDDD, transowi, eteryczni, a przy tym bezgranicznie oddani ciemności (Dolch), gothic-punkowa Maggot Heart, a także OvO, beztrosko pławiący się w brudzie i hałasie.  W piątek, 3 czerwca, Shrine Stage spróbują zburzyć Azarath, więc grają ostatni, żeby inni nie musieli występować na zgliszczach. Przed autorami „Saint Desecration” zniszczenie siać będą: black/punkowcy z Okkultokrati, Raging Speedhorn, którzy hardcore’ową siłę łączą ze sludge’owym ciężarem, Proscription, zderzający black i death jak tylko Finowie potrafią oraz Tester Gier, którzy swoim oldskulowym thrashem na koncertach gwarantują chaos bez granic. W sobotę na Shrine Stage będzie jeszcze ciemniej, najciemniej. Konfrontacji z wytyczającym nowe granice ekstremalnego metalu Imperial Triumphant długo nie zapomnicie. Po blackmetalowej chłoście w wykonaniu Medico Peste i Wiegedood długo nie zmrużycie oka, a w podróż do przeszłości zaproszą was Truchło Strzygi i Baest – ci pierwsi wciągną w black/thrashowe labirynty, ci drudzy przypomną lata potęgi skandynawskiej sceny deathmetalowej.	04.04.2022 - Desert Stage na Mystic Festival to oczywiście królestwo stonera, doomu, hard rocka i pokrewnych. Możecie się spodziewać obfitości staroszkolnych brzmień, przedwiecznej magii i niskich częstotliwości. Desert Stage to jedyna pustynia na świecie pełna tak różnorodnych form życia. Nie wszystkie są człowiekowi przyjazne, niektóre wręcz śmiertelnie niebezpieczne, ale wszystkie absolutnie fascynujące. Niektóre tak rzadkie, że wręcz zagrożone wyginięciem. Zobaczycie ich teraz, albo nigdy. Na pierwszy ogień, w czwartek, 2 czerwca, wystawią was Stay Nowhere i będzie to posthardcore’owa jazda na emocjach, od wkurwu do melancholii. Riffy Major Kong to stoner/doomowe ciężary i zarazem dalekie kosmiczne loty. Dead Lord są ze Szwecji i z lat 70. zarazem - trudno uwierzyć, że ktoś dzisiaj potrafi tak czuć klasycznego hard rocka à la Thin Lizzy czy Nazareth. Wreszcie The Picturebooks, których blues rock brzmi jak podróż chopperem przez amerykańskie Południe w niekończące się, zbyt suche lato.Tylko nie zniknijcie od razu za horyzontem! Przy Desert Stage każdej festiwalowej nocy czekają was długie aftery z wyśmienitym soundtrackiem. W czwartek zadba o to Nightrun87, który na latającym dywanie utkanym z synthpopu przeniesie was w lata 80. W środę, 3 czerwca, jako pierwsi na pustynię zaproszą was Only Sons, którzy co prawda przyjadą z Krakowa, ale najlepiej czują się wśród amerykańskich riffów sprzed ćwierćwiecza, gdzieś pomiędzy stonerem a grungem w stylu Alice In Chains. „Tak powinno się grać heavy metal” - napisał kiedyś „The Guardian” o Green Lung. No pewnie, że tak - ma być ciężar, trans i czarna magia. Spaceslug to doom i stoner napędzane space rockiem, a The Stubs to punk'n'roll z warszawskiego garażu. Taka energia, że możecie się spodziewać pustynnej burzy. A na afterze czeka was Favorit89, czyli nasycony mrokiem synthwave.Ostatni dzień festiwalu, 4 czerwca, musi wam dostarczyć wrażeń, które wystarczą na cały rok, aż do kolejnej edycji festiwalu. Zadba o to choćby krakowski Taraban, który porusza się na styku bluesa, hard rocka i psychodelii. W muzyce Red Scalp słychać podobne wpływy, ale trzeba dodać rytuały indiańskich szamanów i kosmiczne wizje. Jeszcze bardziej odjechany jest norweski Arabrot, który swobodnie żongluje dźwiękami od noise rocka przez gotyk, post-punk aż do metalu. Na finał zagrają The Vintage Caravan psychodelicznego hard rocka, który na przełomie lat 60. i 70. zrobiłby z nich gwiazdę światowego formatu. Dobijać was będzie do skutku kolektyw Neon Haze, w skład którego wchodzą Octopussy, Favorit89 i Nightrun87. Bawcie się aż za dobrze!	25.02.2022 - A tak to wyglądało w czasach przed-pandemicznych, w roku 2019 ...			
 \.
 
@@ -2073,7 +2255,8 @@ COPY public.mystic_open_air_numeration (id, open_air_news1, open_air_news10, ope
 -- Data for Name: mystic_tickets; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.mystic_tickets (id, get_one_day_ticket_three_day, info_tickets, one_day_ticket_one_day, one_day_ticket_two_day, standard_tickets, upgrade_one_day_ticket, vip_tickets) FROM stdin;
+COPY public.mystic_tickets (id, get_one_day_ticket_three_day, info_tickets, one_day_ticket_one_day,
+                            one_day_ticket_two_day, standard_tickets, upgrade_one_day_ticket, vip_tickets) FROM stdin;
 57e18570-bafe-4fa0-9b7e-e2dbc85c00de	BILET JEDNODNIOWY 04.06.2022 - 299,00 zł; Bilet sprzedawany w dwóch wersjach: - dla osoby bez ważnego certyfikatu UCC; - dla osoby z ważnym certyfikatem UCC;Upoważnia do wejścia w dniu 04.06.2022. KUP BILETY:	Informacja o biletach na Mystic Festival 2022:  Dostępne są następujące rodzaje biletów: - BILET STANDARDOWY (02-04.06.2022) - 479,00 zł; - BILET VIP (01-04.06.2022 + BONUSY) - 799,00 zł; - BILET JEDNODNIOWY 02.06.2022 - 299,00 zł; - BILET JEDNODNIOWY 03.06.2022 - 299,00 zł; - BILET JEDNODNIOWY 04.06.2022 - 299,00 zł; - UPGRADE BILETU JEDNODNIOWEGO DO BILETU UMOŻLIWIAJĄCEGO WSTĘP W DNIACH 02-04.2022 - 200,00 zł. Informacje o Health Pass Tickets  (związane z obostrzeniami wynikającymi z COVID-19): Health Pass Ticket (HPT) jest biletem dla osób posiadających aktualny Unijny Certyfikat COVID (UCC), który upoważnia do wejścia na festiwal niezależnie od aktualnie obowiązujących limitów. Unijny Certyfikat COVID jest wydawanym bezpłatnie dokumentem potwierdzającym odporność na chorobę COVID-19. Otrzymują go osoby w pełni zaszczepione, ozdrowieńcy i osoby, które wykonały test na koronawirusa (prosimy o sprawdzenie aktualnych przepisów regulujących ważność UCC otrzymanego tą drogą). Bilet HPT jest ważny tylko w połączeniu z aktualnym UCC. Na życzenie pracownika upoważnionego do sprawdzania biletów prosimy okazać kodu QR, który zostanie zeskanowany celem sprawdzenia, czy dana osoba posiada ważny UCC. W tym celu niezbędne będzie posiadanie aplikacji mObywatel na urządzeniu typu smartfon albo tablet i okazania UCC lub okazania UCC pobranego z Internetowego Konta Pacjenta w postaci pliku PDF, ewentualnie kodu QR w formie wydruku. Testy na COVID-19 nie będą wymagane i nie będą stanowić podstawy do wejście na teren imprezy w połączeniu Heath Pass Ticket. Honorowane będą tylko i wyłącznie aktualne certyfikaty UCC. Zgodnie z obowiązującymi przepisami prawa powierzchnia festiwalu pozwoli nam na to, by wszyscy, którzy do tej pory nabyli bilety mogli wziąć udział w imprezie. Wciąż w sprzedaży są również bilety i karnety z puli ogólnej (w ograniczonej aktualnymi rozporządzeniami ilości). Organizator festiwalu nie przewiduje żadnych dodatkowych ograniczeń dla posiadaczy biletów z puli ogólnej. Ewentualne zalecenia (np. maseczki) związane będą wyłącznie z obowiązującym w czasie odbywania się festiwalu stanem prawnym. Brak ważnego Unijnego Certyfikatu COVID uniemożliwi wejście na imprezę z biletem z kategorii HPT, prosimy więc o zakupienie biletów z puli ogólnej lub zaplanowanie dawki przypominającej przed datą festiwalu. Osoby, które do terminu koncertu nie będą posiadały Unijnego Certyfikatu COVID, powinny zakupić bilety z puli ogólnej lub zaplanować dawkę przypominającą przed datą festiwalu. Mystic Festival jest imprezą zamkniętą, obliczoną na kilkanaście tysięcy widzów. Obie pule biletów mogą ulec wyczerpaniu, więc stuprocentową pewność wzięcia udziału w imprezie daje tylko zaopatrzenie się we właściwą wejściówkę w przedsprzedaży. Wszystkie posiadane wejściówki (bilety jednodniowe, karnety dwudniowe z 2020 roku, karnety 3-dniowe z 2021 roku oraz pakiety VIP) zachowują swoją ważność i będą honorowane w 2022 roku. Posiadacze karnetów na rok 2020 i 2021 będą mogli wziąć udział w Warm Up Day (1.06.2022) bez dodatkowych opłat! Dotyczy to również posiadaczy upgrade'ów biletów jednodniowych do karnetów. Bilety jednodniowe będą ważne w dowolnie wybranym dniu imprezy, można je również upgradować w cenie 200 zł do karnetu 4-dniowego do 23 grudnia 2021 lub do wyczerpania puli. Ściśle ograniczona pula karnetów 4-dniowych (zawierających Warm Up Day) jest dostępna w specjalnej cenie 479 zł tylko do 23 grudnia 2021 lub do wyczerpania puli. Każdy kto zachowa bilet z 2020 lub 2021 (dot. również osób, które zakupiły upgrade do biletu jednodniowego) oprócz możliwości uczestnictwa w Warm Up Day otrzyma specjalną, limitowaną płytę CD z nagraniami festiwalowych artystów. To wydawnictwo, które nigdy nie trafi do regularnej sprzedaży. Dodatkowe informacje o biletach: Dzieci, które do dnia rozpoczęcia edycji 2020 festiwalu (10 czerwca 2020) nie ukończyły trzynastego roku życia, mogą wejść (pod okiem rodzica lub prawnego opiekuna) na Mystic Festival 2022 za darmo. Osoby niepełnosprawne mogą skorzystać ze specjalnej ceny karnetu dla opiekuna (50% ceny biletu). Poniżej link do maila do kontaktu z opiekunem osoby niepełnosprawnej.	BILET JEDNODNIOWY 02.06.2022 - 299,00 zł; Bilet sprzedawany w dwóch wersjach: - dla osoby bez ważnego certyfikatu UCC; - dla osoby z ważnym certyfikatem UCC; Upoważnia do wejścia w dniu 02.06.2022. KUP BILETY:	BILET JEDNODNIOWY 03.06.2022 - 299,00 zł; Bilet sprzedawany w dwóch wersjach: - dla osoby bez ważnego certyfikatu UCC; - dla osoby z ważnym certyfikatem UCC; Upoważnia do wejścia w dniu 03.06.2022. KUP BILETY:	BILET STANDARDOWY (4 dniowy) - 479,00 zł - Bilet sprzedawany w dwóch wersjach: - dla osoby bez ważnego certyfikatu UCC; - dla osoby z ważnym certyfikatem UCC; Upoważnia do wejścia na teren festiwalu w dniach 02-04.06.2022 roku. KUP BILETY:	UPGRADE BILETU JEDNODNIOWEGO DO BILETU UMOŻLIWIAJĄCEGO WSTĘP W DNIACH 02.06., 03.06. oraz 04.2022 - 200,00 zł; Bilet sprzedawany w dwóch wersjach: - dla osoby bez ważnego certyfikatu UCC; - dla osoby z ważnym certyfikatem UCC; /Upgrade/ działa z dowolnie zakupionym biletem jednodniowym z edycji 2020/2021. Upoważnia do wejścia na teren festiwalu w dniach 02/03/04.06.2022 roku; KUP BILETY:,	BILET VIP (01-04.06.2022 + bonusy) - 799,00 zł; Bilet VIP zawiera: – zestaw gadżetów (torba eco, magnes, kolekcjonerski plakat), – wejście na imprezę na 3 dni festiwalu + Warm-Up Day (1.06), – wstęp do strefy VIP, – bar z szerokim wyborem napojów alkoholowych i bezalkoholowych, – zaplecze sanitarne o podwyższonym standardzie, – platformę VIP przy Main Stage. Wstęp na Warm Up Day (1.06.2022) mają wszyscy posiadacze karnetów (także VIP) z edycji 2020, 2021 i 2022 oraz osoby, które dokonały upgrade'u biletu jednodniowego z edycji 2020 i 2021 do karnetu. Bilet sprzedawany w dwóch wersjach: - dla osoby bez ważnego certyfikatu UCC; - dla osoby z ważnym certyfikatem UCC; Upoważnia do wejścia na teren festiwalu w dniach 01-04.06.2022 roku. KUP BILET: do nabycia TYLKO na oficjalnej stronie Mystic Festival 2022:
 \.
 
@@ -2082,7 +2265,9 @@ COPY public.mystic_tickets (id, get_one_day_ticket_three_day, info_tickets, one_
 -- Data for Name: mystic_warm_up_days_numeration; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.mystic_warm_up_days_numeration (id, warm_up_day_numeration, warm_up_day_numeration2, warm_up_day_numeration3, warm_up_day_numeration4, warm_up_day_numeration5) FROM stdin;
+COPY public.mystic_warm_up_days_numeration (id, warm_up_day_numeration, warm_up_day_numeration2,
+                                            warm_up_day_numeration3, warm_up_day_numeration4,
+                                            warm_up_day_numeration5) FROM stdin;
 8ffcc775-0b28-40d7-94cf-da056240289c	15.10.2021 - Mystic Festival 2022 Warm Up Days! - /ŚRODA 01.06.2022/ Gdańsk Stocznia; Polska; Mocna rozgrzewka przed daniem głównym! Jedyny set w 2022 w Europie legendarnego Tom Warrior's Legacy! Dwie sceny - Park Stage/The Shrine.Potrójny koncert Tom Warrior's Legacy – czyli Hellhammer w wykonaniu Tom Gabriel Warrior’s Triumph Of Death, koncert Triptykon (Official) z repertuarem Celtic Frost oraz samego Triptykon – a także spotkanie z fanami i wystawa masek, grafik oraz artefaktów scenicznych to aktywności związane z obecnością Toma Gabriela Fischera na Mystic Festival. To jedyne takie wydarzenie w 2022 roku na świecie, prawdziwy triumf śmierci. Tom Warrior's Legacy to główny punkt programu. Warm Up Day, na który zapraszamy do Stoczni w przeddzień festiwalu, 1 czerwca 2022 roku. Usłyszycie kultowe numery Hellhammer w wykonaniu Tom Gabriel Warrior’s Triumph of Death, wybór najlepszych hymnów Celtic Frost zaprezentuje Triptykon,a następnie usłyszymy Triptykon z własnym materiałem. Na tym jednak nie koniec atrakcji! Tego samego dnia Tom Gabriel Fischer – żywa legenda i pionier black oraz death metalu – spotka się z fanami, również po to, by odpowiedzieć na ich pytania. Będzie można również zdobyć autografy od Toma oraz muzyków obu zespołów, z którymi przyjedzie do Gdańska. Na terenie Stoczni zostanie również zorganizowana wystawa, której najcenniejszymi eksponatami będą Maski Śmierci, tworzone przez Toma od kilkunastu lat. Ta unikalna wystawa zawierać będzie również sceniczne artefakty związane z historią Hellhammer, Celtic Frost i Triptykon oraz reprodukcje niesamowitych grafik towarzyszących wydawnictwom zespołów. Również 1 czerwca, w ramach Warm Up Day, zobaczycie koncerty Napalm Death, Decapitated, Heathen, GAEREA, URNE, LIK - Sthlm, Skeletal Remains i Spectral Wound. UWAGA! Wstęp na Warm Up Day TYLKO I WYŁĄCZNIE dla posiadaczy KARNETÓW na Mystic Festival. Honorowane będą wszystkie karnety od 2020/2021 roku oraz bilety jednodniowe upgradowane do karnetów.Liczba miejsc na Warm Up Day jest ŚCIŚLE OGRANICZONA!	22.04.2022 - MYSTIC FESTIVAL 2022: LIMITOWANA PULA BILETÓW NA WARM UP DAY! NIE PRZEGAP! - Jaki festiwal, taka rozgrzewka! Jedyny w Europie, potrójny koncert Tom Warrior’s Legacy w 2022 roku, do tego występy m.in. Carcass, Decapitated i Gaerea. Musisz to zobaczyć? Wciąż jeszcze możesz – do sprzedaży trafiła właśnie ostatnia pula biletów jednodniowych na Warm Up Day, który odbędzie się 1 czerwca. Zaawansowane prace produkcyjne nad pierwszą edycją Mystic Festival w Stoczni oraz zniesienie w Polsce wszystkich obostrzeń związanych z pandemią COVID-19 umożliwiły nam precyzyjne oszacowanie możliwości terenu – i mamy dla was doskonałą wiadomość! Dziś do sprzedaży trafia jeszcze jedna, ostatnia pula biletów na Warm Up Day. Są to bilety jednodniowe, w cenie 149 złotych. Mamy ich równe 900 sztuk i ani jednego więcej, więc kto pierwszy – ten lepszy. Właściwe festiwalowe dni to 2-4 czerwca, ale koncerty tegorocznego Mystic Festival rozpoczniemy już 1 czerwca. Na dwóch festiwalowych scenach zaprezentują się m.in. Carcass, Decapitated, Gaerea, Heathen, Lik, Skeletal Remains, Spectral Wound oraz Urne.Najważniejszym punktem wieczoru będzie jedyny w Europie, wyjątkowy koncert Tom Warrior's Legacy. Złożą się na niego trzy zabójcze sety: Hellhammer performed by Tom Gabriel Warrior’s Triumph of Death, Triptykon z nieśmiertelnymi hymnami Celtic Frost oraz Triptykon z autorskim materiałem. Wydarzeniu towarzyszyć będzie spotkanie z Tomem oraz niepowtarzalne doświadczenie – wystawa jego Masek Śmierci. Liczba miejsc na Warm Up Day jest ściśle ograniczona i kończy się na obecnej puli biletów jednodniowych.	25.05.2022 - Każdy fan metalu wie, że dobre intro (na przykład wiatr wiejący przez cmentarz, zgrzyt odsuwanej płyty nagrobnej, bijące w oddali dzwony…) to +666 punktów do wspaniałości płyty. Intro do Mystic Festival 2022 nazywa się Warm Up Day i rozgrywa się w Stoczni już 1 czerwca. Ostatnie bilety jeszcze w sprzedaży! Kto z was tak bardzo nie może się doczekać, że będzie pod bramą już w chwili otwarcia, punktualnie o 14.00? W ogóle się nie dziwimy, my też nie możemy się doczekać…  Niemal cały dzień na Desert Stage zarezerwowaliśmy na pierwsze Mistrzostwa Polski Air Guitar. Można wygrać karnet na cały festiwal, gitarę Ibaneza i podróż na Mistrzostwa Świata do Finlandii. Wciąż jeszcze możecie się zgłaszać!. Historyczne zadanie otwarcia tegorocznego Mystic 2022 przypadnie w udziale Kanadyjczykom ze Spectral Wound, a więc piekło otworzy się bez żadnej gry wstępnej. Urne wierzą w siłę riffu, w klasyczny heavy metal utytłany w sludge’owym brudzie, z kolei Skeletal Remains to deathmetalowa brutalność wcielona, bezkompromisowa jazda na amerykańską modłę. LIK też grają death metal, ale w europejskim stylu – czyż nie pięknie będzie doświadczyć konfrontacji tych dwóch żywiołów?  Decapitated będą świeżo po premierze doskonałego albumu „Cancer Culture”, a koncertową formę mają taką, że jeśli podejdziecie blisko, mogą rozerwać was na strzępy. A potem wielcy Carcass – już pucują stół chirurgiczny na którym was ułożą i oblizują skalpele! – i Heathen, czyli trochę starej thrashowej szkoły z Bay Area. Na pożegnanie dnia i powitanie nocy Gaerea ze swoim blackmetalowym jadem. Punktem kulminacyjnym wieczoru będzie oczywiście potrójny koncert Tom Warrior's Legacy, na który złożą się: Hellhammer performed by Tom Gabriel Warrior’s Triumph of Death, a także sety z nieśmiertelnymi hymnami Celtic Frost w wykonaniu Triptykon i wreszcie Triptykon z własnym materiałem. Wcześniej będziecie mogli odwiedzić wystawę masek śmierci Toma i wziąć udział w spotkaniu z artystą. 1 czerwca w Stoczni składamy hołd temu prawdziwemu pionierowi mrocznej sztuki – to jedyne takie wydarzenie na świecie! 	15.06.2022 - Za nami cztery dni wypełnione muzyką, spotkaniami, rozmowami, filmami, śmiechem, śpiewem, biesiadami… Słowem: dobrą zabawą. Od 1 do 4 czerwca 2022 roku w Stoczni zaprezentowały się dziesiątki zespołów z całego świata, od debiutantów, po prawdziwe legendy, z Judas Priest, Mercyful Fate i Opeth na czele. Oklaskiwało ich ok. 10 tys. ludzi dziennie. Poniżej podsumowanie z Warm Up Day w formie wizualniej; zapraszamy do oglądnięcia :).	
 \.
 
