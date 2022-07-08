@@ -9,12 +9,12 @@ import java.util.UUID;
 @CrossOrigin("http://localhost:3000")
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("api/v1/mystic_festival/alienweaponry")
+@RequestMapping("api/v1/mystic_festival")
 public class AlienWeaponryController {
 
     private final AlienWeaponryService alienWeaponryService;
 
-    @GetMapping
+    @GetMapping("/alienweaponry")
     Iterable<AlienWeaponry> getAlienWeaponry() {
         return alienWeaponryService.getAlienWeaponry();
     }
@@ -30,11 +30,13 @@ public class AlienWeaponryController {
         return alienWeaponryService.createAlienWeaponry(alienWeaponry);
     }
 
+    @ResponseStatus(HttpStatus.ACCEPTED)
     @PutMapping("{id}")
     AlienWeaponry updateAlienWeaponry(@PathVariable UUID id, @RequestBody AlienWeaponry alienWeaponry) {
         return alienWeaponryService.updateAlienWeaponry(id, alienWeaponry);
     }
 
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping("{id}")
     void deleteAlienWeaponry(@PathVariable String id) {
         alienWeaponryService.deleteAlienWeaponry(UUID.fromString(id));
