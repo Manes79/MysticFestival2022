@@ -14,7 +14,7 @@ public class ArabrotController {
 
     private final ArabrotService arabrotService;
 
-    @GetMapping
+    @GetMapping("/arabrot")
     Iterable<Arabrot> getArabrot() {
         return arabrotService.getArabrot();
     }
@@ -30,11 +30,13 @@ public class ArabrotController {
         return arabrotService.createArabrot(arabrot);
     }
 
+    @ResponseStatus(HttpStatus.ACCEPTED)
     @PutMapping("{id}")
     Arabrot updateArabrot(@PathVariable UUID id, @RequestBody Arabrot arabrot) {
         return arabrotService.updateArabrot(id, arabrot);
     }
 
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping("{id}")
     void deleteArabrot(@PathVariable String id) {
         arabrotService.deleteArabrot(UUID.fromString(id));
