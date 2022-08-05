@@ -14,7 +14,7 @@ public class ArabrotController {
 
     private final ArabrotService arabrotService;
 
-    @GetMapping("/arabrot")
+    @GetMapping
     Iterable<Arabrot> getArabrot() {
         return arabrotService.getArabrot();
     }

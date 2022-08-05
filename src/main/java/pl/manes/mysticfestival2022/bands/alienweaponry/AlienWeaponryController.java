@@ -9,12 +9,12 @@ import java.util.UUID;
 @CrossOrigin("http://localhost:3000")
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("api/v1/mystic_festival")
+@RequestMapping("api/v1/mystic_festival/alienweaponry")
 public class AlienWeaponryController {
 
     private final AlienWeaponryService alienWeaponryService;
 
-    @GetMapping("/alienweaponry")
+    @GetMapping
     Iterable<AlienWeaponry> getAlienWeaponry() {
         return alienWeaponryService.getAlienWeaponry();
     }
