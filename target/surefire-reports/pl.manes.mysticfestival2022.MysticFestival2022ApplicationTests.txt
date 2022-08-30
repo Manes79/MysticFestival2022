@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: pl.manes.mysticfestival2022.MysticFestival2022ApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.149 s - in pl.manes.mysticfestival2022.MysticFestival2022ApplicationTests
