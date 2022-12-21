@@ -14,7 +14,6 @@ for the event!
 ![Mystic_1](https://user-images.githubusercontent.com/83776302/208951274-a3978c71-119b-42c8-a57c-e60853f537bf.png)
 ![Mystic_2](https://user-images.githubusercontent.com/83776302/208953704-94cc9c0a-0866-4978-a7b4-820669cff075.png)
 ![Mystic_3](https://user-images.githubusercontent.com/83776302/208954808-3a4e5613-e6c5-439c-86ec-63704d371aed.png)
-![Mystic_7](https://user-images.githubusercontent.com/83776302/208961447-81269b4f-c53a-4b20-9f21-768d69f7ae53.png)
 ![Mystic_4](https://user-images.githubusercontent.com/83776302/208955695-89c85dde-2af0-41ae-8afe-4836b85f8905.png)
 ![Mystic_5](https://user-images.githubusercontent.com/83776302/208957887-4a8ddde3-b9e2-402a-944d-675032f835d0.png)
 ![Mystic_6](https://user-images.githubusercontent.com/83776302/208958411-62f71a1c-21af-4efd-98e4-5a03fc8c6217.png)
@@ -41,12 +40,7 @@ Launching the application/website:
 - import into the database the file from /resources 'mystic_festival_localhost-2022_07_01_22_10_17-dump'
 - run your command line (e.g., GitBash) in the mystic_front-end folder
 - invoking in the command line (e.g. in GitBash) the command ---> npm start
-- enjoying the view of the page on the local React host :3000 :)
-
-maybe in later time I will manage to deploy the application to an external server (VPS/Heroku) or create an image in
-Docker (I don't promise)
-
-nice watching
+- enjoying the view of the page on the local React host :3000 
 
 # Mystic Festival 2022
 
@@ -84,9 +78,4 @@ Uruchomienie aplikacji/strony:
 - import do bazy danych pliku z /resources 'mystic_festival_localhost-2022_07_01_22_10_17-dump'
 - uruchomienie w folderze mystic_front-end swojego wiersza poleceń (np. GitBash)
 - wywołanie w wierszu poleceń (np. w GitBash) komendy ---> npm start
-- cieszenie się widokiem strony na localnym hoscie Reacta tj:3000 :)
-
-może w póżniejszym czasie uda mi się zdeployować aplikację na zewnętrzny serwer (VPS/Heroku) lub stworzyć obraz w
-Dockerze (nie obiecuję)
-
-miłego oglądania
+- przeglądaj stronę na lokalnym hoscie Reacta :3000 :
