@@ -11,6 +11,8 @@ the festival is taking place, and if you want, you can take a look at interestin
 buy tickets to the event and book accommodation
 for the event!
 
+
+
 The technology stack used to write this application/website is:
 
 - Spring Boot
