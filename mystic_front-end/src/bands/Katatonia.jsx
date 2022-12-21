@@ -90,7 +90,7 @@ export const Katatonia = () => {
                         )
                     })
                     }
-                    <a href="http://www.katatonia.com/" target="blank" rel="noreferrer">www.katatonia.com</a>
+                    <a href="https://www.katatonia.com/" target="blank" rel="noreferrer">katatonia.com</a>
 
                 </ul>
 

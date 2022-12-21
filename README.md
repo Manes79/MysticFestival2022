@@ -11,7 +11,12 @@ the festival is taking place, and if you want, you can take a look at interestin
 buy tickets to the event and book accommodation
 for the event!
 
-
+![Mystic_1](https://user-images.githubusercontent.com/83776302/208951274-a3978c71-119b-42c8-a57c-e60853f537bf.png)
+![Mystic_2](https://user-images.githubusercontent.com/83776302/208953704-94cc9c0a-0866-4978-a7b4-820669cff075.png)
+![Mystic_3](https://user-images.githubusercontent.com/83776302/208954808-3a4e5613-e6c5-439c-86ec-63704d371aed.png)
+![Mystic_4](https://user-images.githubusercontent.com/83776302/208955695-89c85dde-2af0-41ae-8afe-4836b85f8905.png)
+![Mystic_5](https://user-images.githubusercontent.com/83776302/208957887-4a8ddde3-b9e2-402a-944d-675032f835d0.png)
+![Mystic_6](https://user-images.githubusercontent.com/83776302/208958411-62f71a1c-21af-4efd-98e4-5a03fc8c6217.png)
 
 The technology stack used to write this application/website is:
 
