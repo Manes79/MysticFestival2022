@@ -22,13 +22,16 @@ export const MysticFestivalLocation = () => {
 
         <div className="body">
 
+            <div className="red-text">
             <th>Mystic Festival 2022 Location Information</th>
+            </div>
             <br></br>
 
             <ul>
                 {infoLocationAppState.gdanskShipyard.map((notices, index) => {
                     return (<tr key={index}>{notices.gdanskShipyard}</tr>)
                 })}
+                <div className="yellow-link">
                 <a href="https://gdanskshipyard.pl/" target="blank" rel="noreferrer">Oficjalna strona
                     Stoczni
                     Gdańskiej</a>
@@ -36,7 +39,7 @@ export const MysticFestivalLocation = () => {
                 <a href="https://www.google.com/maps/place/Stocznia+Gda%C5%84sk+S.A./@54.3710515,18.641522,12z/data=!4m9!1m2!2m1!1sShipyard,
                                 +Gda%C5%84sk!3m5!1s0x46fd736e03f47fe5:0xb58f9dac14c3ebfa!8m2!3d54.3705753!4d18.6547768!15sChFTaGlweWFyZCwgR2RhxYRza1oSIhBzaGlweWFyZCBnZGHFhHNrkgEIc2hpcHlhcmQ"
                    target="blank" rel="noreferrer">Lokalizacja na Google Maps</a>
-                <br></br>
+                </div>
                 <br></br>
 
                 <div className="youtube-video-container">
@@ -73,7 +76,7 @@ export const MysticFestivalLocation = () => {
                 </div>
             </ul>
 
-            <div className={"footer"}>
+            <div className="footer-mystic">
                 <th>
                     <ul>
                         2022 pl.manes

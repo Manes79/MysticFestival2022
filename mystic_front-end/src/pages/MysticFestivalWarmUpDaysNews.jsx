@@ -23,7 +23,9 @@ export const MysticFestivalWarmUpDaysNews = () => {
 
         <div className="body">
 
+            <div className="red-text">
             <th>Warm Up Days news</th>
+            </div>
             <br></br>
 
             <ul>
@@ -95,7 +97,7 @@ export const MysticFestivalWarmUpDaysNews = () => {
                 </div>
             </ul>
 
-            <div className={"footer"}>
+            <div className="footer-mystic">
                 <th>
                     <ul>
                         2022 pl.manes

@@ -24,7 +24,9 @@ export const MysticFestivalAccommodation = () => {
 
         <div className="body">
 
+            <div className="red-text">
             <th>Accommodation in Gdańsk</th>
+        </div>
             <br></br>
 
             <ul>
@@ -34,42 +36,50 @@ export const MysticFestivalAccommodation = () => {
                     )
                 })
                 }
+                <div className="yellow-link">
                 <a href="https://www.booking.com/index.pl.html?label=gen173nr-1DCAEoggI46AdIM1gEaLYBiAEBmAEeuAEXyAEM2AED6AEBiAIBqAIDuAKc6cSUBsACAdICJDU5MTUzNjM0LThjMGYtNDg5My1iZTdjLTg5ZjJkMTZiNTJmNNgCBOACAQ&sid=ecdaea32a50a337b0f6f321c07a48d9e&keep_landing=1&sb_price_type=total&"
                    title="Booking" target="blank" rel="noreferrer">Booking.com</a>
+                </div>
 
-                <br></br><br></br>
+                <br></br>
                 {accommodation2AppState.accommodation2.map((notices, index) => {
                     return (
                         <tr key={index}>{notices.accommodation2}</tr>
                     )
                 })
                 }
+                <div className="yellow-link">
                 <a href="https://hotellook.pl/"
                    title="Booking" target="blank" rel="noreferrer">Hotellook</a>
+                </div>
 
-                <br></br><br></br>
+                <br></br>
                 {accommodation3AppState.accommodation3.map((notices, index) => {
                     return (
                         <tr key={index}>{notices.accommodation3}</tr>
                     )
                 })
                 }
+                <div className="yellow-link">
                 <a href="https://www.trivago.pl/?__wr=17&tc=102&themeId=280&sem_keyword=trivago.pl&sem_creativeid=510985779037&sem_matchtype=e&sem_network=g&sem_device=c&sem_placement=&sem_target=&sem_adposition=&sem_param1=&sem_param2=&sem_campaignid=321842415&sem_adgroupid=118922465494&sem_targetid=kwd-393873172515&sem_location=1011347&cipc=br&cip=4819000005&gclid=CjwKCAjw7cGUBhA9EiwArBAvop8yN5H15YrMfQEC8hXok55VFchhy6zF5ym86BZPunjM3iwuox79KxoC9ikQAvD_BwE"
                    title="Booking" target="blank" rel="noreferrer">Trivago</a>
+                </div>
 
-                <br></br><br></br>
+                <br></br>
                 {accommodation4AppState.accommodation4.map((notices, index) => {
                     return (
                         <tr key={index}>{notices.accommodation4}</tr>
                     )
                 })
                 }
+                <div className="yellow-link">
                 <a href="https://www.sembo.pl/"
                    title="Booking" target="blank" rel="noreferrer">Sembo</a>
+                </div>
 
             </ul>
 
-            <div className={"footer"}>
+            <div className="footer-mystic">
                 <th>
                     <ul>
                         2022 pl.manes

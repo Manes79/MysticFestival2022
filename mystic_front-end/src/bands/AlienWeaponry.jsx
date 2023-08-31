@@ -94,7 +94,7 @@ export const AlienWeaponry = () => {
                         )
                     })
                     }
-                    <a href="http://alienweaponry.com/index.html#" target="blank" rel="noreferrer">alienweaponry.com</a>
+                    <a href="https://alienweaponry.com/index.html#" target="blank" rel="noreferrer">alienweaponry.com</a>
 
                 </ul>
 

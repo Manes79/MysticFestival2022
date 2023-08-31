@@ -61,7 +61,9 @@ export const MysticFestivalNews = () => {
 
         <div className="body">
 
+            <div className="red-text">
             <th>News</th>
+            </div>
             <br></br>
 
             <ul>
@@ -170,7 +172,7 @@ export const MysticFestivalNews = () => {
                     )
                 })
                 }
-                <div className="a:link">
+                <div className="yellow-link">
                     <a href="https://www.mysticfestival.pl/pl/file-list/download/24" target="blank"
                        rel="noreferrer">
                         REGULAMIN KONKURSU MISTRZOSTWA POLSKI AIR GUITAR 2022
@@ -203,7 +205,7 @@ export const MysticFestivalNews = () => {
                     )
                 })
                 }
-                <div className="a:link">
+                <div className="yellow-link">
                     <a href="https://www.facebook.com/events/370620786841546/" target="blank"
                        rel="noreferrer">
                         Oficjalna grupa Facebook --> całkiem możliwe, że tutaj znajdziesz Transport na
@@ -237,7 +239,7 @@ export const MysticFestivalNews = () => {
                     )
                 })
                 }
-                <div className="a:link">
+                <div className="yellow-link">
                     <a href="https://www.mysticfestival.pl/pl/czasowka-2022" target="blank"
                        rel="noreferrer">
                         Rozplanuj swoją wizytę na Mystic Festival 2022!</a>
@@ -251,7 +253,7 @@ export const MysticFestivalNews = () => {
                     )
                 })
                 }
-                <div className="a:link">
+                <div className="yellow-link">
                     <a href="https://www.mysticfestival.pl/pl/road-to-mystic" target="blank"
                        rel="noreferrer">
                         Pięćdziesiątka półfinalistów - road to mystic!</a>
@@ -283,7 +285,7 @@ export const MysticFestivalNews = () => {
                     )
                 })
                 }
-                <div className="a:link">
+                <div className="yellow-link">
                     <a href="https://www.mysticfestival.pl/pl/road-to-mystic" target="blank"
                        rel="noreferrer">Odwiedź
                         Mystic Festival - road to mystic!</a>
@@ -358,7 +360,7 @@ export const MysticFestivalNews = () => {
                 }
             </ul>
 
-            <div className={"footer"}>
+            <div className="footer-mystic">
                 <th>
                     <ul>2022 pl.manes</ul>
                 </th>

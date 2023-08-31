@@ -26,7 +26,9 @@ export const MysticFestivalBandList = () => {
         <div className="body">
 
             <br></br>
+            <div className="red-text">
             <th>Mystic Festival 2022 Band List</th>
+            </div>
 
             <br></br>
             <ul>
@@ -65,7 +67,7 @@ export const MysticFestivalBandList = () => {
                 </Table>
             </ul>
 
-            <div className={"footer"}>
+            <div className="footer-mystic">
                 <th>
                     <ul>
                         2022 pl.manes

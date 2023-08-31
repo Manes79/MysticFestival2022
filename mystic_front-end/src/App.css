@@ -58,6 +58,20 @@ li a:hover {
     opacity: 100%;
 }
 
+.red-text {
+    color: red;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.yellow-link a {
+    color: yellow;
+}
+
+.yellow-link a:hover {
+    color: yellow;
+}
+
 .body {
     background-size: cover;
     padding: 6%;
@@ -94,12 +108,14 @@ ul {
     overflow: auto;
 }
 
-.footer {
+.footer-mystic {
     font-family: "Metal Macabre Font", serif;
     line-height: 6.5;
     font-weight: 400;
     font-size: calc(2px + 1.4vmin);
     color: #cec9c9;
+    text-align: -webkit-center;
+    padding: 100px 10px;
 }
 
 #customers {
@@ -123,8 +139,8 @@ th, td {
     padding-bottom: 5px;
     text-align: left;
     font-family: "Calibri", serif;
-    font-size: calc(1px + 1.0vmin);
-    color: #a62727;
+    font-size: calc(5px + 1.0vmin);
+    color: #bbb41a;
 }
 
 .youtube-video-container {

@@ -19,7 +19,9 @@ export const MysticFestivalExploreLocation = () => {
 
         <div className="body">
 
+            <div className="red-text">
             <th>Mystic Festival 2022 Explore Locations</th>
+            </div>
             <br></br>
 
             <ul>
@@ -39,6 +41,7 @@ export const MysticFestivalExploreLocation = () => {
                 </div>
 
                 <br></br>
+                <div className="yellow-link">
                 <a href="https://pl.wikipedia.org/wiki/Bazylika_konkatedralna_Wniebowzi%C4%99cia_Naj%C5%9Bwi%C4%99tszej_Maryi_Panny_w_Gda%C5%84sku"
                    target="blank" rel="noreferrer">
                     Bazylika konkatedralna Wniebowzięcia Najświętszej Maryi Panny, zwana także bazyliką
@@ -82,6 +85,7 @@ export const MysticFestivalExploreLocation = () => {
                 <a href="https://pl.wikipedia.org/wiki/Wyspa_Spichrz%C3%B3w" target="blank"
                    rel="noreferrer">
                     Wyspa Spichrzów</a>
+                </div>
 
                 <br></br>
                 <br></br>
@@ -89,6 +93,7 @@ export const MysticFestivalExploreLocation = () => {
                     return (<tr key={index}>{notices.exploreArea}</tr>)
                 })}
 
+                <div className="yellow-link">
                 <a href="https://zamek.malbork.pl/" target="blank" rel="noreferrer">
                     Zamek w Malborku</a>
                 <br></br>
@@ -104,9 +109,10 @@ export const MysticFestivalExploreLocation = () => {
                 <br></br>
                 <a href="https://tpkgdansk.pl/" target="blank" rel="noreferrer">
                     Trójmiejski Park Krajobrazowy</a>
+                </div>
             </ul>
 
-            <div className={"footer"}>
+            <div className="footer-mystic">
                 <th>
                     <ul>
                         2022 pl.manes

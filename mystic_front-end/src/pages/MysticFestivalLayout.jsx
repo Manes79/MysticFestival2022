@@ -30,5 +30,4 @@ const MysticFestivalLayout = () => {
         </div>
     );
 };
-
 export default MysticFestivalLayout;

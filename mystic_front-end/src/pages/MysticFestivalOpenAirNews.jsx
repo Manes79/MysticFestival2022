@@ -27,7 +27,9 @@ export const MysticFestivalOpenAirNews = () => {
 
         <div className="body">
 
+            <div className="red-text">
             <th>Open Air news</th>
+            </div>
             <br></br>
 
             <ul>
@@ -107,7 +109,7 @@ export const MysticFestivalOpenAirNews = () => {
                 </div>
             </ul>
 
-            <div className={"footer"}>
+            <div className="footer-mystic">
                 <th>
                     <ul>2022 pl.manes</ul>
                 </th>
