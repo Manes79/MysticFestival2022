@@ -545,7 +545,7 @@ export const MysticFestivalBands = () => {
 
             </div>
 
-            <div className="footer">
+            <div className="footer-mystic">
                 <th>
                     <ul>
                         2022 pl.manes
