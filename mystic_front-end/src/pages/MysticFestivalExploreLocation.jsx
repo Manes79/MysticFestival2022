@@ -88,7 +88,6 @@ export const MysticFestivalExploreLocation = () => {
                 </div>
 
                 <br></br>
-                <br></br>
                 {exploreAreaAppState.exploreArea.map((notices, index) => {
                     return (<tr key={index}>{notices.exploreArea}</tr>)
                 })}
