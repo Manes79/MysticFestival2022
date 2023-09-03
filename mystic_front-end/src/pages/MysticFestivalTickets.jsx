@@ -65,7 +65,6 @@ export const MysticFestivalTickets = () => {
                     </div>
 
                     <br></br>
-                    <br></br>
                     {standardTicketsAppState.standardTickets.map((notices, index) => {
                         return (<tr key={index}>{notices.standardTickets}</tr>)
                     })}
